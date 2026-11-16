@@ -8,7 +8,7 @@ except FileNotFoundError:
     pass
 URL = os.environ.get("DATABASE_URL")
 if not URL:
-    sys.exit("DATABASE_URL is not set: copy .env.example to .env and fill in the Day-6 database URL")
+    sys.exit("DATABASE_URL is not set: add DATABASE_URL (the Day-6 PostgreSQL connection string, see the Day-6 starter docker-compose) to your git-ignored .env")
 out = sys.argv[1] if len(sys.argv) > 1 else "data/real"
 with psycopg.connect(URL) as c:
     rows = c.execute("""SELECT chunk_id, text, document_id, source, page, chapter, chapter_title, printed_page, metadata

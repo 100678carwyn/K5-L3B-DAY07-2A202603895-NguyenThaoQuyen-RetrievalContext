@@ -19,7 +19,7 @@ def _load_env(path=".env"):  # read DATABASE_URL from the git-ignored .env (no s
 _load_env()
 DB_URL = os.environ.get("DATABASE_URL")
 if not DB_URL:
-    raise RuntimeError("DATABASE_URL is not set: copy .env.example to .env and fill in the Day-6 database URL")
+    raise RuntimeError("DATABASE_URL is not set: add DATABASE_URL (the Day-6 PostgreSQL connection string, see the Day-6 starter docker-compose) to your git-ignored .env")
 STRATEGY = "B"  # Day-6 paragraph chunks (same chunks as strategy C)
 STOP = set("a an the of to in on for and or is are was were be by with as at from that this it its which what who how does do did into than then their there these those can may not no".split())
 

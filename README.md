@@ -59,7 +59,7 @@ Tài liệu: *Việt Nam: Báo cáo Quốc gia về Khí hậu và Phát triển
 Xử lý: văn bản bằng PyMuPDF; bảng/biểu đồ/bản đồ/sơ đồ được chuyển ghi từ ảnh trang vào [adv/visual_notes.json](adv/visual_notes.json) (lớp văn bản của các bảng bị lỗi glyph số; hình là đồ họa). Index 355 chunk (324 text, 9 table, 22 figure) trong pgvector (`adv_chunks`), embedding `intfloat/multilingual-e5-small`. Benchmark: [adv/benchmark/questions.json](adv/benchmark/questions.json) (test 30 câu, dev 18 câu). Tiêu chí chọn: [adv/SELECTION.md](adv/SELECTION.md). Báo cáo: [mục "Thử thách nâng cao" trong báo cáo cá nhân](report/individual/2A202603895_NguyenThaoQuyen.md#thử-thách-nâng-cao-15-điểm).
 
 ```bash
-cp .env.example .env          # rồi tự điền DEEPSEEK_API_KEY (và DATABASE_URL); KHÔNG commit .env
+cp .env.example .env          # rồi tự điền DEEPSEEK_API_KEY và tự thêm dòng DATABASE_URL=... (chuỗi kết nối PostgreSQL của Day 06); KHÔNG commit .env
 ./adv/fetch_pdf.sh            # tải PDF + kiểm SHA-256
 .venv/bin/python adv/build_adv_index.py && .venv/bin/python adv/build_adv_benchmark.py
 .venv/bin/python adv/run_retrieval.py --split dev --out adv/results/retrieval_dev        # không cần LLM
