@@ -56,7 +56,7 @@ Code: `rag/` (retrievers, agent, metrics). Kết quả: `results/`, `artifacts/e
 
 Tài liệu: *Việt Nam: Báo cáo Quốc gia về Khí hậu và Phát triển* (Ngân hàng Thế giới, 07/2022, bản tiếng Việt, 104 trang, 22 hình, 6 bảng + phụ lục, 9 hộp). Nguồn, giấy phép, SHA-256, phần chưa xử lý: [adv/manifest.json](adv/manifest.json). **PDF không được commit** (bản quyền WB, chỉ cho phép sao chép phi thương mại có ghi nguồn); tái tạo bằng `adv/fetch_pdf.sh`.
 
-Xử lý: văn bản bằng PyMuPDF; bảng/biểu đồ/bản đồ/sơ đồ được chuyển ghi từ ảnh trang vào [adv/visual_notes.json](adv/visual_notes.json) (lớp văn bản của các bảng bị lỗi glyph số; hình là đồ họa). Index 355 chunk (324 text, 9 table, 22 figure) trong pgvector (`adv_chunks`), embedding `intfloat/multilingual-e5-small`. Benchmark: [adv/benchmark/questions.json](adv/benchmark/questions.json) (test 30 câu, dev 18 câu). Tiêu chí chọn: [adv/SELECTION.md](adv/SELECTION.md). Báo cáo: [report/individual/2A202603895_NguyenThaoQuyen_ADVANCED.md](report/individual/2A202603895_NguyenThaoQuyen_ADVANCED.md).
+Xử lý: văn bản bằng PyMuPDF; bảng/biểu đồ/bản đồ/sơ đồ được chuyển ghi từ ảnh trang vào [adv/visual_notes.json](adv/visual_notes.json) (lớp văn bản của các bảng bị lỗi glyph số; hình là đồ họa). Index 355 chunk (324 text, 9 table, 22 figure) trong pgvector (`adv_chunks`), embedding `intfloat/multilingual-e5-small`. Benchmark: [adv/benchmark/questions.json](adv/benchmark/questions.json) (test 30 câu, dev 18 câu). Tiêu chí chọn: [adv/SELECTION.md](adv/SELECTION.md). Báo cáo: [mục "Thử thách nâng cao" trong báo cáo cá nhân](report/individual/2A202603895_NguyenThaoQuyen.md#thử-thách-nâng-cao-15-điểm).
 
 ```bash
 cp .env.example .env          # rồi tự điền DEEPSEEK_API_KEY (và DATABASE_URL); KHÔNG commit .env
