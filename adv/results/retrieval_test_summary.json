@@ -1,0 +1,119 @@
+{
+ "dense": {
+  "all": {
+   "N": 24,
+   "hit1": 16,
+   "hit3": 18,
+   "hit5": 24
+  },
+  "bang": {
+   "N": 6,
+   "hit1": 3,
+   "hit3": 5,
+   "hit5": 6
+  },
+  "anh": {
+   "N": 5,
+   "hit1": 4,
+   "hit3": 4,
+   "hit5": 5
+  },
+  "bieu_do": {
+   "N": 5,
+   "hit1": 5,
+   "hit3": 5,
+   "hit5": 5
+  },
+  "multi_hop": {
+   "N": 4,
+   "hit1": 0,
+   "hit3": 0,
+   "hit5": 4
+  },
+  "text": {
+   "N": 4,
+   "hit1": 4,
+   "hit3": 4,
+   "hit5": 4
+  },
+  "seconds": 0.61
+ },
+ "bm25": {
+  "all": {
+   "N": 24,
+   "hit1": 15,
+   "hit3": 23,
+   "hit5": 23
+  },
+  "bang": {
+   "N": 6,
+   "hit1": 2,
+   "hit3": 6,
+   "hit5": 6
+  },
+  "anh": {
+   "N": 5,
+   "hit1": 5,
+   "hit3": 5,
+   "hit5": 5
+  },
+  "bieu_do": {
+   "N": 5,
+   "hit1": 5,
+   "hit3": 5,
+   "hit5": 5
+  },
+  "multi_hop": {
+   "N": 4,
+   "hit1": 0,
+   "hit3": 3,
+   "hit5": 3
+  },
+  "text": {
+   "N": 4,
+   "hit1": 3,
+   "hit3": 4,
+   "hit5": 4
+  },
+  "seconds": 0.06
+ },
+ "hybrid_rrf": {
+  "all": {
+   "N": 24,
+   "hit1": 16,
+   "hit3": 22,
+   "hit5": 24
+  },
+  "bang": {
+   "N": 6,
+   "hit1": 3,
+   "hit3": 6,
+   "hit5": 6
+  },
+  "anh": {
+   "N": 5,
+   "hit1": 4,
+   "hit3": 5,
+   "hit5": 5
+  },
+  "bieu_do": {
+   "N": 5,
+   "hit1": 5,
+   "hit3": 5,
+   "hit5": 5
+  },
+  "multi_hop": {
+   "N": 4,
+   "hit1": 0,
+   "hit3": 2,
+   "hit5": 4
+  },
+  "text": {
+   "N": 4,
+   "hit1": 4,
+   "hit3": 4,
+   "hit5": 4
+  },
+  "seconds": 0.61
+ }
+}

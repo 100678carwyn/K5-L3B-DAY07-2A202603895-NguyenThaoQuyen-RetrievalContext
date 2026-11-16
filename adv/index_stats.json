@@ -1,0 +1,95 @@
+{
+ "chunks": 355,
+ "by_type": {
+  "text": 324,
+  "table": 9,
+  "figure": 22
+ },
+ "mean_chars_text": 781,
+ "pages_in_pdf": 104,
+ "pages_indexed_with_content": 91,
+ "skipped_pages": [
+  {
+   "page": 1,
+   "reason": "cover/copyright/table of contents"
+  },
+  {
+   "page": 2,
+   "reason": "cover/copyright/table of contents"
+  },
+  {
+   "page": 3,
+   "reason": "cover/copyright/table of contents"
+  },
+  {
+   "page": 4,
+   "reason": "cover/copyright/table of contents"
+  },
+  {
+   "page": 5,
+   "reason": "cover/copyright/table of contents"
+  },
+  {
+   "page": 6,
+   "reason": "cover/copyright/table of contents"
+  },
+  {
+   "page": 7,
+   "reason": "cover/copyright/table of contents"
+  },
+  {
+   "page": 14,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 21,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 22,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 28,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 47,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 48,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 75,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 76,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 82,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 89,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 90,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 103,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  },
+  {
+   "page": 104,
+   "reason": "<150 chars of text (photo/chapter opener/blank)"
+  }
+ ],
+ "embed_seconds": 20.7,
+ "db_rows": 355
+}

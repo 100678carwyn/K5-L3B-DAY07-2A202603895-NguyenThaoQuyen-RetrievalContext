@@ -1,0 +1,60 @@
+[
+ {
+  "query_id": "test-n01",
+  "citation_support": [],
+  "reason": "Core ok but mixes 'specific business process or problem setting' (definition of database) and adds an invented 'structure and operations for managing student grades'; no citation.",
+  "answer_grade": 1,
+  "context_grade": 2
+ },
+ {
+  "query_id": "test-n02",
+  "citation_support": [
+   true
+  ],
+  "reason": "DDL compiler correct; cited p379:B01 contains the sentence; security-manager sentence is true but unnecessary.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "test-n03",
+  "citation_support": [],
+  "reason": "Core correct; adds loosely supported list ('mobile apps, websites, video games, data structures management'); no citation.",
+  "answer_grade": 1,
+  "context_grade": 2
+ },
+ {
+  "query_id": "test-n04",
+  "citation_support": [],
+  "reason": "Multiplicities correct; example claims a '1' between BlindSpotDetection and Car which the text does not state (it states one Car per AdaptiveCruiseControl); no citation.",
+  "answer_grade": 1,
+  "context_grade": 2
+ },
+ {
+  "query_id": "test-n05",
+  "citation_support": [],
+  "reason": "'ignores any physical aspects' + cruise-control example correct; 'how information is stored' not in source; no citation.",
+  "answer_grade": 1,
+  "context_grade": 2
+ },
+ {
+  "query_id": "test-n06",
+  "citation_support": [
+   true
+  ],
+  "reason": "Google Maps, quotes the evidence sentence, cites p377:B02.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "test-a1",
+  "citation_support": [],
+  "reason": "Abstains; no meeting duration in corpus.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "test-a2",
+  "citation_support": [],
+  "reason": "Abstains; no license price in corpus.",
+  "abstention_correct": true
+ }
+]

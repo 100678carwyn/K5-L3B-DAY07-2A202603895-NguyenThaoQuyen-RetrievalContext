@@ -1,0 +1,32 @@
+W1116 10:19:07.365000 18052 .venv/lib/python3.14/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2575.46it/s]
+/Users/carwyn/K5-L3B-DAY07-2A202603895-NguyenThaoQuyen-RetrievalContext/rag/retrievers.py:61: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.model_name, self.dim = model, int(self.model.get_sentence_embedding_dimension())
+dev-d01    answered s=1 ctxEv=True 31.37s :: 'The idea of garbage in, garbage out (GIGO) implies that if the input data is poor quality,'
+dev-d02    answered s=1 ctxEv=False 18.0s :: 'In a DBMS, the information that describes tables and fields is kept in a data dictionary, '
+dev-d03    abstain  s=1 ctxEv=False 10.55s :: 'INSUFFICIENT_EVIDENCE'
+dev-d04    answered s=1 ctxEv=True 13.78s :: '[openstax-intro-cs:p375:B01] The data steward performs extensive and regular data quality '
+dev-d05    answered s=1 ctxEv=True 12.9s :: 'Guaranteeing full isolation of concurrent transactions in a relational database requires s'
+dev-d06    answered s=1 ctxEv=False 16.56s :: '[openstax-intro-cs:p388:B01] (page 388, chapter 8) discusses relational model constraints '
+dev-d07    answered s=1 ctxEv=False 12.61s :: 'Dr. Edgar F. Codd first proposed the relational model of data in 1970, as indicated on pag'
+dev-d08    answered s=1 ctxEv=True 16.48s :: 'The Division operator is not directly implemented in SQL, which can be inferred from [open'
+dev-d09    answered s=1 ctxEv=True 19.89s :: '[openstax-intro-cs:p388:B02] In third normal form (3NF), a table must be in both first and'
+dev-d10    answered s=1 ctxEv=True 19.51s :: 'The focus of online analytical processing (OLAP) is on using operational data for tactical'
+dev-d11    answered s=1 ctxEv=True 17.02s :: 'The IEEE defines software engineering as the application of a systematic, disciplined, qua'
+dev-d12    answered s=1 ctxEv=True 22.29s :: 'A software process framework encompasses four generic or framework activities: inception, '
+dev-d13    answered s=1 ctxEv=True 19.5s :: 'The ongoing maintenance and support activities associated with the deployment phase of sof'
+dev-d14    abstain  s=1 ctxEv=True 9.39s :: 'INSUFFICIENT_EVIDENCE'
+dev-d15    answered s=1 ctxEv=True 15.02s :: 'Traditional prescriptive process models are criticized for being too rigid and inflexible,'
+dev-d16    answered s=1 ctxEv=True 21.61s :: 'The role of an architect can be understood through the example of an information architect'
+dev-d17    abstain  s=1 ctxEv=True 26.27s :: '[openstax-intro-cs:p458:B01] Database administrators focus on areas such as data storage, '
+dev-d18    answered s=1 ctxEv=True 24.1s :: 'Scalability is defined as the measurement of the work and cost to increase a system’s thro'
+dev-t01    answered s=1 ctxEv=True 30.19s :: "When one of the courses is full during a student's registration, the RDBMS transaction wil"
+dev-t02    answered s=1 ctxEv=True 19.53s :: 'The complete set of relational algebra operations includes Select, Project, Union, Rename,'
+dev-t03    answered s=1 ctxEv=True 22.08s :: 'Agile process models are generally not suitable for large-scale, high-risk, or mission-cri'
+dev-t04    answered s=1 ctxEv=True 22.02s :: 'The role of an architect, specifically a solution architect, is to make high-level design '
+dev-t05    answered s=1 ctxEv=True 11.4s :: 'Embedded software is given this name for software that is built into hardware such as a sm'
+dev-t06    answered s=1 ctxEv=True 17.16s :: 'Based on the provided passages, a database administrator (DBA) is responsible for implemen'
+dev-a1     abstain  s=1 ctxEv=None 9.74s :: 'INSUFFICIENT_EVIDENCE'
+dev-a2     abstain  s=1 ctxEv=None 8.15s :: 'INSUFFICIENT_EVIDENCE'
+dev-a3     abstain  s=1 ctxEv=None 9.83s :: 'INSUFFICIENT_EVIDENCE'

@@ -31,3 +31,39 @@ Index một tài liệu thực tế từ **100 trang** có bảng, ảnh và bi�
 ![Các bước thử nghiệm trên dev và đánh giá trên test](assets/experiment-loop.svg)
 
 Nộp code, cách chạy, cấu hình, benchmark, trace và [báo cáo](report/individual/MSSV_HoTen.md). Thời gian ở [checkpoints](CHECKPOINTS.md) là gợi ý, có thể điều chỉnh theo lớp và phạm vi thử nghiệm.
+
+## Bài làm của học viên (2A202603895) — cách chạy
+
+Môi trường: macOS, Python 3.14, Docker (pgvector Day 6 đang chạy), Ollama với `qwen2.5:3b`. Mọi thứ chạy local, chi phí 0 USD.
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install "psycopg[binary]==3.3.8" sentence-transformers==6.3.0 httpx numpy
+# 1) Day 6: docker compose -p day6_student_starter up -d --wait (xem repo Day 6) ; ollama serve & ollama pull qwen2.5:3b
+.venv/bin/python src/export_day6.py data/real          # xuất 176 chunk (strategy B) từ pgvector Day 6
+python3 src/build_benchmark.py                          # benchmark/questions.json (kiểm evidence + câu thiếu evidence)
+.venv/bin/python run_retrieval.py --split dev --out results/retrieval_dev   # 3 phương pháp, không LLM
+./run_all_dev.sh                                        # 5 cấu hình agent trên dev (~55 phút)
+# chọn cấu hình theo SELECTION_CRITERIA.md, rồi:
+./run_test.sh                                           # test, đúng một lần
+.venv/bin/python summarize_agent.py results/agent/test_imp_topk5.json
+.venv/bin/python results/manual/make_labels.py          # nhãn thủ công test -> starter/agent_metrics.py
+.venv/bin/python -m unittest discover -s tests -v
+```
+
+Code: `rag/` (retrievers, agent, metrics). Kết quả: `results/`, `artifacts/experiment_log.csv`. Báo cáo: [report/individual/2A202603895_NguyenThaoQuyen.md](report/individual/2A202603895_NguyenThaoQuyen.md).
+
+## Thử thách nâng cao (tài liệu tiếng Việt, 104 trang)
+
+Tài liệu: *Việt Nam: Báo cáo Quốc gia về Khí hậu và Phát triển* (Ngân hàng Thế giới, 07/2022, bản tiếng Việt, 104 trang, 22 hình, 6 bảng + phụ lục, 9 hộp). Nguồn, giấy phép, SHA-256, phần chưa xử lý: [adv/manifest.json](adv/manifest.json). **PDF không được commit** (bản quyền WB, chỉ cho phép sao chép phi thương mại có ghi nguồn); tái tạo bằng `adv/fetch_pdf.sh`.
+
+Xử lý: văn bản bằng PyMuPDF; bảng/biểu đồ/bản đồ/sơ đồ được chuyển ghi từ ảnh trang vào [adv/visual_notes.json](adv/visual_notes.json) (lớp văn bản của các bảng bị lỗi glyph số; hình là đồ họa). Index 355 chunk (324 text, 9 table, 22 figure) trong pgvector (`adv_chunks`), embedding `intfloat/multilingual-e5-small`. Benchmark: [adv/benchmark/questions.json](adv/benchmark/questions.json) (test 30 câu, dev 18 câu). Tiêu chí chọn: [adv/SELECTION.md](adv/SELECTION.md). Báo cáo: [report/individual/2A202603895_NguyenThaoQuyen_ADVANCED.md](report/individual/2A202603895_NguyenThaoQuyen_ADVANCED.md).
+
+```bash
+cp .env.example .env          # rồi tự điền DEEPSEEK_API_KEY (và DATABASE_URL); KHÔNG commit .env
+./adv/fetch_pdf.sh            # tải PDF + kiểm SHA-256
+.venv/bin/python adv/build_adv_index.py && .venv/bin/python adv/build_adv_benchmark.py
+.venv/bin/python adv/run_retrieval.py --split dev --out adv/results/retrieval_dev        # không cần LLM
+LLM=deepseek ./adv/run_all.sh                          # dev x3 cấu hình -> chọn -> test đúng 1 lần
+.venv/bin/python adv/score_test.py                     # sau khi tự chấm adv/results/labels_test.json
+python3 adv/check_no_secrets.py                        # trước khi commit/push
+```

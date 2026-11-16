@@ -1,0 +1,13 @@
+W1116 10:37:39.556000 22555 .venv/lib/python3.14/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5060.27it/s]
+/Users/carwyn/K5-L3B-DAY07-2A202603895-NguyenThaoQuyen-RetrievalContext/rag/retrievers.py:61: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.model_name, self.dim = model, int(self.model.get_sentence_embedding_dimension())
+test-n01   answered s=1 ctxEv=True 21.85s :: 'The term miniworld (universe of discourse) in a database context refers to some aspect of '
+test-n02   answered s=1 ctxEv=True 33.94s :: '[openstax-intro-cs:p379:B01] The security manager is responsible for securing the database'
+test-n03   answered s=1 ctxEv=True 35.79s :: 'It is possible to be employed as a software engineer knowing only a single programming lan'
+test-n04   answered s=1 ctxEv=True 27.02s :: 'In a UML class diagram of a domain model, the numbers at associations represent multiplici'
+test-n05   answered s=1 ctxEv=True 22.58s :: 'Logical design ignores any physical aspects, focusing instead on designing a database base'
+test-n06   answered s=1 ctxEv=True 41.19s :: '[openstax-intro-cs:p377:B02] (page 377, chapter 8) The example given for a Geographic Info'
+test-a1    abstain  s=1 ctxEv=None 11.22s :: 'INSUFFICIENT_EVIDENCE'
+test-a2    abstain  s=1 ctxEv=None 16.55s :: 'INSUFFICIENT_EVIDENCE. The provided passages do not contain information about the cost of '

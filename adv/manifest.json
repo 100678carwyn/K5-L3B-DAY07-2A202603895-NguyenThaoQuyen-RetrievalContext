@@ -1,0 +1,38 @@
+{
+  "source_id": "ccdr-vn-2022",
+  "title": "Việt Nam: Báo cáo Quốc gia về Khí hậu và Phát triển (Country Climate and Development Report, bản tiếng Việt)",
+  "publisher": "Ngân hàng Thế giới (World Bank Group), Đông Á – Thái Bình Dương",
+  "language": "vi",
+  "date": "2022-07",
+  "source_url": "https://www.ifc.org/content/dam/ifc/doc/mgrt/ccdr-full-report-vie-1107.pdf",
+  "also_published_at": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099100007112226158",
+  "accessed_at": "2026-11-16",
+  "sha256": "cb0c7f23a88ceadcbb5ad837e31caa73a7cc201db4140aed45820dcbcf666a18",
+  "license_or_permission": "Trang bản quyền của chính tài liệu (PDF trang 2): 'Báo cáo này có bản quyền. Vì Ngân hàng Thế giới khuyến khích phổ biến kiến thức, nên toàn bộ hoặc một phần báo cáo này có thể được sao chép lại cho các mục đích phi thương mại miễn là có ghi nhận đầy đủ về tác phẩm này.' Dùng ở đây cho bài tập học thuật phi thương mại, có ghi nguồn. Không có quyền dùng thương mại hay tái phân phối rộng hơn.",
+  "redistribution_in_repo": "KHÔNG commit PDF, ảnh trang hay toàn văn trích xuất (adv/raw, adv/work bị git bỏ qua). Repo chứa: manifest, mã, ghi chú chuyển ghi ngắn (adv/visual_notes.json), benchmark với trích đoạn ngắn làm evidence, và trace kết quả (adv/results/*.json) có kèm các đoạn trích đã truy xuất làm context — dùng phi thương mại cho bài tập, có ghi nguồn. Tái tạo: adv/fetch_pdf.sh rồi adv/build_adv_index.py.",
+  "pdf_pages": 104,
+  "printed_page_offset": "trang in = trang PDF - 10 (từ PDF trang 11)",
+  "content_pages_rule": "Tính các trang PDF 8-104 có >=150 ký tự văn bản hoặc có bảng/hình đã chuyển ghi (chương mở đầu bằng ảnh, trang bìa, mục lục, trang trống không tính).",
+  "content_pages_indexed": 91,
+  "not_processed": {
+    "pages_1_7": "bìa, bản quyền, mục lục",
+    "chapter_opener_photos_and_blanks": [
+      14,
+      21,
+      22,
+      28,
+      47,
+      48,
+      75,
+      76,
+      82,
+      89,
+      90,
+      103,
+      104
+    ],
+    "decorative_photos": "ảnh bìa chương (trang 14, 22, 28, 48, 76, 82) là ảnh trang trí, không đưa vào index và không dùng làm câu hỏi ảnh",
+    "table_text_layer": "Số trong các Bảng 2-5 và Phụ lục bị lỗi mã hóa glyph trong lớp văn bản PDF (ví dụ '4 5 5 4 , – ,'); các bảng này được lấy từ ghi chú chuyển ghi đọc trên ảnh trang (adv/visual_notes.json). Văn bản lỗi của các trang đó vẫn nằm trong index như nhiễu."
+  },
+  "rejected_candidate": "Việt Nam 2035 (bản tổng quan tiếng Việt): bị loại vì chỉ là bản tổng quan ít hình/biểu đồ và trang quyền không nêu giấy phép mở."
+}

@@ -1,0 +1,23 @@
+{
+ "selected": "adv_hybrid_wide",
+ "ranking": [
+  {
+   "config": "adv_hybrid_wide",
+   "auto_pass_all": "17/18",
+   "context_covers_gold": "15/15",
+   "mean_seconds": 4.2
+  },
+  {
+   "config": "adv_dense",
+   "auto_pass_all": "17/18",
+   "context_covers_gold": "14/15",
+   "mean_seconds": 4.3
+  },
+  {
+   "config": "adv_hybrid",
+   "auto_pass_all": "17/18",
+   "context_covers_gold": "13/15",
+   "mean_seconds": 3.4
+  }
+ ]
+}

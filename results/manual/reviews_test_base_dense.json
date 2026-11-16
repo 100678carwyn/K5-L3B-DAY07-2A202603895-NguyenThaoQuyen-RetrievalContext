@@ -1,0 +1,65 @@
+{
+ "rule": "answer_grade: 2 = correct, fully supported by retrieved context, no unsupported extra claim; 1 = core answer correct but contains an unsupported/contradicted extra claim or wrong/missing source; 0 = wrong/no evidence.",
+ "context_rule": "0 = no evidence in final context; 1 = evidence but missing condition/source; 2 = full evidence + source id/page",
+ "reviews": [
+  {
+   "query_id": "test-n01",
+   "citation_support": [],
+   "reason": "Core ok (aspect of real-world data) but merges the definition of 'database' ('business process or problem setting') into miniworld; no citation.",
+   "answer_grade": 1,
+   "context_grade": 2
+  },
+  {
+   "query_id": "test-n02",
+   "citation_support": [
+    true,
+    false
+   ],
+   "reason": "Final answer DDL compiler correct, but it is cited to p382:B02 which does not contain the DDL sentence (it is in p379:B01); first sentence about security manager is irrelevant.",
+   "answer_grade": 1,
+   "context_grade": 2
+  },
+  {
+   "query_id": "test-n03",
+   "citation_support": [],
+   "reason": "'possible but not common' correct; adds unsupported claim that one primary language 'can still be sufficient for many projects'; no citation.",
+   "answer_grade": 1,
+   "context_grade": 2
+  },
+  {
+   "query_id": "test-n04",
+   "citation_support": [],
+   "reason": "Multiplicities + exactly one Car per AdaptiveCruiseControl correct; then wrongly says numbers can indicate on/off state; no citation.",
+   "answer_grade": 1,
+   "context_grade": 2
+  },
+  {
+   "query_id": "test-n05",
+   "citation_support": [],
+   "reason": "'ignores any physical aspects' correct; adds database-design/validation claims taken from another page (p387) and misattributes 'where information comes from' to logical design; no citation.",
+   "answer_grade": 1,
+   "context_grade": 2
+  },
+  {
+   "query_id": "test-n06",
+   "citation_support": [
+    true
+   ],
+   "reason": "Google Maps, cited chunk p377:B02 contains the sentence.",
+   "answer_grade": 2,
+   "context_grade": 2
+  },
+  {
+   "query_id": "test-a1",
+   "citation_support": [],
+   "reason": "Abstains; context (p459 mentions Scrum/Kanban/sprints only) has no meeting duration. No invented claim.",
+   "abstention_correct": true
+  },
+  {
+   "query_id": "test-a2",
+   "citation_support": [],
+   "reason": "Abstains; Oracle appears only as a DBMS example (p380/382), no price.",
+   "abstention_correct": true
+  }
+ ]
+}

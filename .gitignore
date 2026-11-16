@@ -9,3 +9,10 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Advanced challenge: third-party PDF and derived text are NOT redistributed
+adv/raw/
+adv/work/
+adv/preview/
+adv/results/smoke_*.json
+adv/results/try*.json

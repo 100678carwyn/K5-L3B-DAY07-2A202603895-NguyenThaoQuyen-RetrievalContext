@@ -1,0 +1,346 @@
+[
+ {
+  "query_id": "test-n01",
+  "status": "answered",
+  "events": [
+   {
+    "event": "nudge",
+    "reason": "answered without search"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "miniworld (universe of discourse) database",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-intro-cs:p377:B00",
+      "page": 377,
+      "score": 0.8903,
+      "rank": 1
+     },
+     {
+      "id": "openstax-intro-cs:p377:B01",
+      "page": 377,
+      "score": 0.8578,
+      "rank": 2
+     },
+     {
+      "id": "openstax-intro-cs:p382:B01",
+      "page": 382,
+      "score": 0.8251,
+      "rank": 3
+     }
+    ],
+    "context_ids": [
+     "openstax-intro-cs:p377:B00",
+     "openstax-intro-cs:p377:B01"
+    ]
+   }
+  ],
+  "citations": []
+ },
+ {
+  "query_id": "test-n02",
+  "status": "answered",
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "DBMS component translate statements",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-intro-cs:p379:B01",
+      "page": 379,
+      "score": 0.8696,
+      "rank": 1
+     },
+     {
+      "id": "openstax-intro-cs:p382:B02",
+      "page": 382,
+      "score": 0.8597,
+      "rank": 2
+     },
+     {
+      "id": "openstax-intro-cs:p382:B00",
+      "page": 382,
+      "score": 0.8571,
+      "rank": 3
+     }
+    ],
+    "context_ids": [
+     "openstax-intro-cs:p379:B01",
+     "openstax-intro-cs:p382:B02"
+    ]
+   }
+  ],
+  "citations": [
+   "openstax-intro-cs:p379:B01",
+   "openstax-intro-cs:p382:B02"
+  ]
+ },
+ {
+  "query_id": "test-n03",
+  "status": "answered",
+  "events": [
+   {
+    "event": "nudge",
+    "reason": "answered without search"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "software engineering single programming language",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-intro-cs:p450:B00",
+      "page": 450,
+      "score": 0.8983,
+      "rank": 1
+     },
+     {
+      "id": "openstax-intro-cs:p450:B01",
+      "page": 450,
+      "score": 0.8977,
+      "rank": 2
+     },
+     {
+      "id": "openstax-intro-cs:p449:B01",
+      "page": 449,
+      "score": 0.8861,
+      "rank": 3
+     }
+    ],
+    "context_ids": [
+     "openstax-intro-cs:p450:B00",
+     "openstax-intro-cs:p450:B01",
+     "openstax-intro-cs:p449:B01"
+    ]
+   }
+  ],
+  "citations": []
+ },
+ {
+  "query_id": "test-n04",
+  "status": "answered",
+  "events": [
+   {
+    "event": "nudge",
+    "reason": "answered without search"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "numbers at associations UML class diagram domain model",
+    "filter": {
+     "chapter": 9
+    },
+    "results": [
+     {
+      "id": "openstax-intro-cs:p455:B02",
+      "page": 455,
+      "score": 0.904,
+      "rank": 1
+     },
+     {
+      "id": "openstax-intro-cs:p455:B01",
+      "page": 455,
+      "score": 0.8695,
+      "rank": 2
+     },
+     {
+      "id": "openstax-intro-cs:p456:B01",
+      "page": 456,
+      "score": 0.8509,
+      "rank": 3
+     }
+    ],
+    "context_ids": [
+     "openstax-intro-cs:p455:B02",
+     "openstax-intro-cs:p455:B01"
+    ]
+   }
+  ],
+  "citations": []
+ },
+ {
+  "query_id": "test-n05",
+  "status": "answered",
+  "events": [
+   {
+    "event": "nudge",
+    "reason": "answered without search"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "what does logical design ignore when designing a solution",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-intro-cs:p457:B01",
+      "page": 457,
+      "score": 0.8618,
+      "rank": 1
+     },
+     {
+      "id": "openstax-intro-cs:p387:B03",
+      "page": 387,
+      "score": 0.8502,
+      "rank": 2
+     },
+     {
+      "id": "openstax-intro-cs:p457:B00",
+      "page": 457,
+      "score": 0.8442,
+      "rank": 3
+     }
+    ],
+    "context_ids": [
+     "openstax-intro-cs:p457:B01",
+     "openstax-intro-cs:p387:B03",
+     "openstax-intro-cs:p457:B00"
+    ]
+   }
+  ],
+  "citations": []
+ },
+ {
+  "query_id": "test-n06",
+  "status": "answered",
+  "events": [
+   {
+    "event": "nudge",
+    "reason": "answered without search"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "Geographic Information Systems (GIS) database application example",
+    "filter": {
+     "chapter": 8
+    },
+    "results": [
+     {
+      "id": "openstax-intro-cs:p377:B02",
+      "page": 377,
+      "score": 0.8816,
+      "rank": 1
+     },
+     {
+      "id": "openstax-intro-cs:p377:B01",
+      "page": 377,
+      "score": 0.8576,
+      "rank": 2
+     },
+     {
+      "id": "openstax-intro-cs:p377:B03",
+      "page": 377,
+      "score": 0.8573,
+      "rank": 3
+     }
+    ],
+    "context_ids": [
+     "openstax-intro-cs:p377:B02",
+     "openstax-intro-cs:p377:B01",
+     "openstax-intro-cs:p377:B03"
+    ]
+   }
+  ],
+  "citations": [
+   "openstax-intro-cs:p377:B02"
+  ]
+ },
+ {
+  "query_id": "test-a1",
+  "status": "abstain",
+  "events": [
+   {
+    "event": "nudge",
+    "reason": "answered without search"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "Scrum daily stand-up meeting duration",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-intro-cs:p459:B00",
+      "page": 459,
+      "score": 0.825,
+      "rank": 1
+     },
+     {
+      "id": "openstax-intro-cs:p370:B02",
+      "page": 370,
+      "score": 0.8174,
+      "rank": 2
+     },
+     {
+      "id": "openstax-intro-cs:p448:B06",
+      "page": 448,
+      "score": 0.8067,
+      "rank": 3
+     }
+    ],
+    "context_ids": [
+     "openstax-intro-cs:p459:B00",
+     "openstax-intro-cs:p370:B02"
+    ]
+   }
+  ],
+  "citations": []
+ },
+ {
+  "query_id": "test-a2",
+  "status": "abstain",
+  "events": [
+   {
+    "event": "nudge",
+    "reason": "answered without search"
+   },
+   {
+    "event": "search",
+    "tool": "search_documents",
+    "method": "dense",
+    "query": "Oracle DBMS enterprise license cost",
+    "filter": null,
+    "results": [
+     {
+      "id": "openstax-intro-cs:p380:B01",
+      "page": 380,
+      "score": 0.8471,
+      "rank": 1
+     },
+     {
+      "id": "openstax-intro-cs:p381:B00",
+      "page": 381,
+      "score": 0.8383,
+      "rank": 2
+     },
+     {
+      "id": "openstax-intro-cs:p382:B00",
+      "page": 382,
+      "score": 0.832,
+      "rank": 3
+     }
+    ],
+    "context_ids": [
+     "openstax-intro-cs:p380:B01",
+     "openstax-intro-cs:p381:B00"
+    ]
+   }
+  ],
+  "citations": []
+ }
+]

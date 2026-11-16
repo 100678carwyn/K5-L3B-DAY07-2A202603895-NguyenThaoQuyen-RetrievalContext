@@ -1,0 +1,13 @@
+W1116 10:41:26.018000 23481 .venv/lib/python3.14/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4341.84it/s]
+/Users/carwyn/K5-L3B-DAY07-2A202603895-NguyenThaoQuyen-RetrievalContext/rag/retrievers.py:61: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.model_name, self.dim = model, int(self.model.get_sentence_embedding_dimension())
+test-n01   answered s=1 ctxEv=True 21.99s :: 'The term miniworld, or universe of discourse (UoD), in a database context refers to some a'
+test-n02   answered s=1 ctxEv=True 13.73s :: 'The security manager is responsible for securing the database from threats. The data descr'
+test-n03   answered s=1 ctxEv=True 21.15s :: 'It is possible to be employed as a software engineer knowing only a single programming lan'
+test-n04   answered s=1 ctxEv=True 15.34s :: 'The numbers at associations in a UML class diagram for a domain model represent multiplici'
+test-n05   answered s=1 ctxEv=True 13.67s :: 'Logical design in database management ignores any physical aspects, such as how informatio'
+test-n06   answered s=1 ctxEv=True 13.15s :: '[openstax-intro-cs:p377:B02] (page 377) mentions a Geographic Information Systems (GIS) da'
+test-a1    abstain  s=1 ctxEv=None 8.32s :: 'INSUFFICIENT_EVIDENCE'
+test-a2    abstain  s=1 ctxEv=None 9.28s :: 'INSUFFICIENT_EVIDENCE'

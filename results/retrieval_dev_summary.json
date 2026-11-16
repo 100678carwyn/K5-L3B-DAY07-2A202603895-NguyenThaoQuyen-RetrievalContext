@@ -1,0 +1,56 @@
+{
+ "dense|filter=False": {
+  "N": 24,
+  "hit1": 15,
+  "hit3": 18,
+  "page_hit3": 22,
+  "filter_questions": 5,
+  "filter_hit3": 3,
+  "seconds": 1.21
+ },
+ "dense|filter=True": {
+  "N": 24,
+  "hit1": 16,
+  "hit3": 19,
+  "page_hit3": 23,
+  "filter_questions": 5,
+  "filter_hit3": 4,
+  "seconds": 0.56
+ },
+ "bm25|filter=False": {
+  "N": 24,
+  "hit1": 11,
+  "hit3": 15,
+  "page_hit3": 19,
+  "filter_questions": 5,
+  "filter_hit3": 3,
+  "seconds": 0.01
+ },
+ "bm25|filter=True": {
+  "N": 24,
+  "hit1": 11,
+  "hit3": 16,
+  "page_hit3": 20,
+  "filter_questions": 5,
+  "filter_hit3": 4,
+  "seconds": 0.01
+ },
+ "hybrid_rrf|filter=False": {
+  "N": 24,
+  "hit1": 11,
+  "hit3": 20,
+  "page_hit3": 22,
+  "filter_questions": 5,
+  "filter_hit3": 4,
+  "seconds": 0.57
+ },
+ "hybrid_rrf|filter=True": {
+  "N": 24,
+  "hit1": 12,
+  "hit3": 21,
+  "page_hit3": 23,
+  "filter_questions": 5,
+  "filter_hit3": 5,
+  "seconds": 0.51
+ }
+}

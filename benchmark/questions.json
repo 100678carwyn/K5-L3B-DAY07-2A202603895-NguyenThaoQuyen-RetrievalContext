@@ -1,0 +1,561 @@
+{
+ "_readme": "Day 7 benchmark. dev = 24 answerable (Day-6 dev 18 + Day-6 test 6, re-labelled dev because Day-6 test was already viewed) + 3 absent; test = 6 NEW answerable (written from the corpus before any Day-7 run) + 2 absent. Filters are user-context (chapter being read), never derived from gold.",
+ "questions": [
+  {
+   "id": "dev-d01",
+   "split": "dev",
+   "origin": "day6-dev:d01",
+   "type": "truc_tiep",
+   "question": "What does the idea of garbage in, garbage out say about the quality of a system's results?",
+   "expected_answer": "The quality of the output is determined by the quality of the input.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 373,
+     "evidence": "garbage in, garbage out (GIGO), which means that the quality of output is determined by the quality of the input"
+    }
+   ]
+  },
+  {
+   "id": "dev-d02",
+   "split": "dev",
+   "origin": "day6-dev:d02",
+   "type": "dien_dat_lai",
+   "question": "In a DBMS, where is the information that describes tables and fields kept?",
+   "expected_answer": "In a catalog called the data dictionary.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 372,
+     "evidence": "In a DBMS approach, metadata are stored in a catalog called a data dictionary."
+    }
+   ]
+  },
+  {
+   "id": "dev-d03",
+   "split": "dev",
+   "origin": "day6-dev:d03",
+   "type": "dien_dat_lai",
+   "question": "Who has the final say over who may access a dataset and how it may be used?",
+   "expected_answer": "The data owner.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 375,
+     "evidence": "The data owner has the authority to ultimately decide on the access to, and usage of, the data."
+    }
+   ]
+  },
+  {
+   "id": "dev-d04",
+   "split": "dev",
+   "origin": "day6-dev:d04",
+   "type": "truc_tiep",
+   "question": "Which data management role runs regular data quality checks and investigates root causes of quality problems?",
+   "expected_answer": "The data steward.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 375,
+     "evidence": "The data steward performs extensive and regular data quality checks, initiates corrective measures or deeper investigation into root causes of data quality issues"
+    }
+   ]
+  },
+  {
+   "id": "dev-d05",
+   "split": "dev",
+   "origin": "day6-dev:d05",
+   "type": "dieu_kien",
+   "question": "What is the price of guaranteeing full isolation of concurrent transactions in a relational database?",
+   "expected_answer": "Significant additional processing time.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 382,
+     "evidence": "guaranteeing full isolation in a RDBMS requires significant additional processing time."
+    }
+   ]
+  },
+  {
+   "id": "dev-d06",
+   "split": "dev",
+   "origin": "day6-dev:d06",
+   "type": "dien_dat_lai",
+   "question": "Why are relational systems a poor fit for data such as free-form documents?",
+   "expected_answer": "Their rigid row-based schema with type constraints makes them not good at storing unstructured or semistructured data.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 383,
+     "evidence": "RDBMS are not good at storing unstructured or semistructured data."
+    }
+   ]
+  },
+  {
+   "id": "dev-d07",
+   "split": "dev",
+   "origin": "day6-dev:d07",
+   "type": "truc_tiep",
+   "question": "Who first proposed the relational model of data and in which year?",
+   "expected_answer": "Dr. Edgar F. Codd of IBM Research, in 1970.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 383,
+     "evidence": "The model was first proposed by Dr. Edgar F. Codd of IBM Research in 1970."
+    }
+   ]
+  },
+  {
+   "id": "dev-d08",
+   "split": "dev",
+   "origin": "day6-dev:d08",
+   "type": "dieu_kien",
+   "question": "Which relational algebra operator is not directly implemented in SQL?",
+   "expected_answer": "The Division operator.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 386,
+     "evidence": "Note that the Division operator is not directly implemented in SQL."
+    }
+   ]
+  },
+  {
+   "id": "dev-d09",
+   "split": "dev",
+   "origin": "day6-dev:d09",
+   "type": "truc_tiep",
+   "question": "What conditions must a table satisfy to be in third normal form?",
+   "expected_answer": "It must be in 2NF and have no transitive functional dependencies.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 388,
+     "evidence": "Tables in 3NF must be in 2NF and have no transitive functional dependencies."
+    }
+   ]
+  },
+  {
+   "id": "dev-d10",
+   "split": "dev",
+   "origin": "day6-dev:d10",
+   "type": "truc_tiep",
+   "question": "What is the focus of online analytical processing?",
+   "expected_answer": "Using operational data for tactical or strategic decision-making.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 382,
+     "evidence": "In online analytical processing (OLAP), the focus is on using operational data for tactical or strategical decision-making."
+    }
+   ]
+  },
+  {
+   "id": "dev-d11",
+   "split": "dev",
+   "origin": "day6-dev:d11",
+   "type": "truc_tiep",
+   "question": "How does the IEEE define software engineering?",
+   "expected_answer": "The application of a systematic, disciplined, quantifiable approach to development, operation and maintenance of software.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 441,
+     "evidence": "defines software engineering as the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software"
+    }
+   ]
+  },
+  {
+   "id": "dev-d12",
+   "split": "dev",
+   "origin": "day6-dev:d12",
+   "type": "truc_tiep",
+   "question": "Which generic framework activities (phases) make up a software process framework?",
+   "expected_answer": "Inception, elaboration, construction and deployment.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 444,
+     "evidence": "A process framework generally encompasses four framework (or generic) activities: inception, elaboration, construction, and deployment."
+    },
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 450,
+     "evidence": "encompasses four framework (i.e., generic) activities that are also known as phases: inception, elaboration, construction, and deployment"
+    }
+   ]
+  },
+  {
+   "id": "dev-d13",
+   "split": "dev",
+   "origin": "day6-dev:d13",
+   "type": "dien_dat_lai",
+   "question": "How does the cost of keeping software running over its lifetime compare with the cost of building it?",
+   "expected_answer": "Maintenance/continuous deployment cost often exceeds the cost of construction.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 444,
+     "evidence": "the cost of software maintenance/continuous deployment today often exceeds the cost of software construction"
+    }
+   ]
+  },
+  {
+   "id": "dev-d14",
+   "split": "dev",
+   "origin": "day6-dev:d14",
+   "type": "dieu_kien",
+   "question": "For which kind of application is responsiveness especially critical because prices must be displayed and orders processed in real time?",
+   "expected_answer": "A brokerage system, where performance is important.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 447,
+     "evidence": "In a brokerage system, performance would be an important requirement because the software system will need to display prices and process users’ orders in real time."
+    }
+   ]
+  },
+  {
+   "id": "dev-d15",
+   "split": "dev",
+   "origin": "day6-dev:d15",
+   "type": "dien_dat_lai",
+   "question": "What is the main criticism of traditional prescriptive process models?",
+   "expected_answer": "They are too rigid and inflexible, unsuitable for rapidly changing requirements.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 452,
+     "evidence": "Traditional models are generally criticized for being too rigid and inflexible."
+    }
+   ]
+  },
+  {
+   "id": "dev-d16",
+   "split": "dev",
+   "origin": "day6-dev:d16",
+   "type": "metadata_filter",
+   "question": "What is the role of an architect?",
+   "expected_answer": "Chapter 8 context: the information architect designs the conceptual data model (blueprints) bridging business processes and the IT environment.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 374,
+     "evidence": "An information architect, also known as a data architect or information analyst, is responsible for designing the conceptual data model (blueprints) to bridge the gap between the business processes and the IT environment."
+    }
+   ],
+   "filter": {
+    "chapter": 8
+   }
+  },
+  {
+   "id": "dev-d17",
+   "split": "dev",
+   "origin": "day6-dev:d17",
+   "type": "metadata_filter",
+   "question": "What does a database administrator do?",
+   "expected_answer": "Chapter 9 context: focuses on data storage, organization and access associated with a software solution.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 442,
+     "evidence": "database administrators, who focus on areas such as data storage, organization, and access associated with a software solution"
+    }
+   ],
+   "filter": {
+    "chapter": 9
+   }
+  },
+  {
+   "id": "dev-d18",
+   "split": "dev",
+   "origin": "day6-dev:d18",
+   "type": "metadata_filter",
+   "question": "How is scalability defined?",
+   "expected_answer": "Chapter 9 context: the measurement of the work and cost to increase a system’s throughput.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 447,
+     "evidence": "scalability, which is the measurement of the work and cost to increase a system’s throughput"
+    }
+   ],
+   "filter": {
+    "chapter": 9
+   }
+  },
+  {
+   "id": "dev-t01",
+   "split": "dev",
+   "origin": "day6-test:t01",
+   "type": "dieu_kien",
+   "question": "If one of the courses is full during a student's registration, what happens to the registration transaction?",
+   "expected_answer": "The transaction will not complete successfully (atomicity).",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 382,
+     "evidence": "If that is not possible because one of the courses is full, the transaction will not complete successfully."
+    }
+   ]
+  },
+  {
+   "id": "dev-t02",
+   "split": "dev",
+   "origin": "day6-test:t02",
+   "type": "truc_tiep",
+   "question": "Which relational algebra operations form a complete set?",
+   "expected_answer": "Select, Project, Union, Rename, Difference and Cartesian product.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 384,
+     "evidence": "The following set of relational algebra operations is a complete set: Select, Project, Union, Rename, Difference, and Cartesian product."
+    }
+   ]
+  },
+  {
+   "id": "dev-t03",
+   "split": "dev",
+   "origin": "day6-test:t03",
+   "type": "dieu_kien",
+   "question": "For what kinds of projects are Agile process models generally not suitable?",
+   "expected_answer": "Large, high-risk or mission-critical projects.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 453,
+     "evidence": "In general, Agile process models are not suitable for large, high-risk, or mission-critical projects."
+    }
+   ]
+  },
+  {
+   "id": "dev-t04",
+   "split": "dev",
+   "origin": "day6-test:t04",
+   "type": "metadata_filter",
+   "question": "What is the role of an architect?",
+   "expected_answer": "Chapter 9 context: the enterprise or solution portfolio architect makes high-level design decisions on modeling/solution design building blocks and their interconnections.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 442,
+     "evidence": "enterprise or solution portfolio architect, who makes high-level design decisions on high-level modeling or solution design building blocks and their interconnections"
+    }
+   ],
+   "filter": {
+    "chapter": 9
+   }
+  },
+  {
+   "id": "dev-t05",
+   "split": "dev",
+   "origin": "day6-test:t05",
+   "type": "dien_dat_lai",
+   "question": "What name is given to software that is built into hardware such as a smartwatch or a car control system?",
+   "expected_answer": "Embedded software.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 444,
+     "evidence": "Software that is integrated with hardware and can include both application and system software features is called embedded software."
+    }
+   ]
+  },
+  {
+   "id": "dev-t06",
+   "split": "dev",
+   "origin": "day6-test:t06",
+   "type": "metadata_filter",
+   "question": "What does a database administrator do?",
+   "expected_answer": "Chapter 8 context: responsible for implementation and monitoring of the database and ensuring it runs efficiently in collaboration with network and system managers.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 375,
+     "evidence": "The database administrator (DBA) is responsible for the implementation and monitoring of the database as well as ensuring databases run efficiently"
+    }
+   ],
+   "filter": {
+    "chapter": 8
+   }
+  },
+  {
+   "id": "test-n01",
+   "split": "test",
+   "origin": "day7-new",
+   "type": "truc_tiep",
+   "question": "What does the term miniworld (universe of discourse) refer to in a database context?",
+   "expected_answer": "A miniworld represents some aspect of the real-world data that are stored in a database.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 377,
+     "evidence": "A miniworld, or universe of discourse (UoD), represents some aspect of the real-world data that are stored in a database"
+    }
+   ]
+  },
+  {
+   "id": "test-n02",
+   "split": "test",
+   "origin": "day7-new",
+   "type": "dien_dat_lai",
+   "question": "Which DBMS component translates statements written in a high-level language into low-level instructions for the query evaluation engine?",
+   "expected_answer": "The data description language (DDL) compiler.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 379,
+     "evidence": "The data description language (DDL) compiler translates statements in a high-level language into low-level instructions that the query evaluation engine understands"
+    }
+   ]
+  },
+  {
+   "id": "test-n03",
+   "split": "test",
+   "origin": "day7-new",
+   "type": "dieu_kien",
+   "question": "Is it possible to be employed as a software engineer while knowing only a single programming language?",
+   "expected_answer": "Yes, it is possible but not common.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 450,
+     "evidence": "It is possible, though not common, to be employed as a software engineer knowing only a single programming language"
+    }
+   ]
+  },
+  {
+   "id": "test-n04",
+   "split": "test",
+   "origin": "day7-new",
+   "type": "metadata_filter",
+   "question": "In a UML class diagram of a domain model, what do the numbers at the associations express?",
+   "expected_answer": "They are multiplicities, e.g., exactly one Car per AdaptiveCruiseControl.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 455,
+     "evidence": "The numbers at associations are multiplicities, and they say that there is exactly one Car associated with each AdaptiveCruiseControl"
+    }
+   ],
+   "filter": {
+    "chapter": 9
+   }
+  },
+  {
+   "id": "test-n05",
+   "split": "test",
+   "origin": "day7-new",
+   "type": "dieu_kien",
+   "question": "What does logical design ignore when a solution is designed?",
+   "expected_answer": "Logical design ignores any physical aspects.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 457,
+     "evidence": "Logical design ignores any physical aspects"
+    }
+   ]
+  },
+  {
+   "id": "test-n06",
+   "split": "test",
+   "origin": "day7-new",
+   "type": "metadata_filter",
+   "question": "Which example is given for a Geographic Information Systems (GIS) database application?",
+   "expected_answer": "Google Maps.",
+   "answerable": true,
+   "gold": [
+    {
+     "source_id": "openstax-intro-cs",
+     "page": 377,
+     "evidence": "Geographic Information Systems (GIS) applications (e.g., Google Maps)"
+    }
+   ],
+   "filter": {
+    "chapter": 8
+   }
+  },
+  {
+   "id": "dev-a1",
+   "split": "dev",
+   "origin": "day7-new",
+   "type": "thieu_bang_chung",
+   "question": "How many rows can a single PostgreSQL table hold at most?",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "absence_reason": "Keyword grep over all 40 corpus pages (370-389, 440-459) finds none of ['postgres']; topic is adjacent to the corpus but not stated."
+  },
+  {
+   "id": "dev-a2",
+   "split": "dev",
+   "origin": "day7-new",
+   "type": "thieu_bang_chung",
+   "question": "What is the average yearly salary of a database administrator?",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "absence_reason": "Keyword grep over all 40 corpus pages (370-389, 440-459) finds none of ['salary']; topic is adjacent to the corpus but not stated."
+  },
+  {
+   "id": "dev-a3",
+   "split": "dev",
+   "origin": "day7-new",
+   "type": "thieu_bang_chung",
+   "question": "Which continuous integration tool, such as Jenkins, does the chapter recommend for automating builds?",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "absence_reason": "Keyword grep over all 40 corpus pages (370-389, 440-459) finds none of ['jenkins', 'continuous integration']; topic is adjacent to the corpus but not stated."
+  },
+  {
+   "id": "test-a1",
+   "split": "test",
+   "origin": "day7-new",
+   "type": "thieu_bang_chung",
+   "question": "How many minutes should a daily stand-up meeting last in Scrum?",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "absence_reason": "Keyword grep over all 40 corpus pages (370-389, 440-459) finds none of ['stand-up', 'standup', 'minutes']; topic is adjacent to the corpus but not stated."
+  },
+  {
+   "id": "test-a2",
+   "split": "test",
+   "origin": "day7-new",
+   "type": "thieu_bang_chung",
+   "question": "How much does an Oracle DBMS enterprise license cost?",
+   "answerable": false,
+   "expected_behavior": "search_and_abstain",
+   "absence_reason": "Keyword grep over all 40 corpus pages (370-389, 440-459) finds none of ['per month', 'license fee', 'licensing cost']; topic is adjacent to the corpus but not stated."
+  }
+ ]
+}

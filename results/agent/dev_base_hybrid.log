@@ -1,0 +1,32 @@
+W1116 10:08:45.975000 15508 .venv/lib/python3.14/site-packages/torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 5998.28it/s]
+/Users/carwyn/K5-L3B-DAY07-2A202603895-NguyenThaoQuyen-RetrievalContext/rag/retrievers.py:61: FutureWarning: The `get_sentence_embedding_dimension` method has been renamed to `get_embedding_dimension`.
+  self.model_name, self.dim = model, int(self.model.get_sentence_embedding_dimension())
+dev-d01    answered s=1 ctxEv=True 29.02s :: '[openstax-intro-cs:p373:B00] The concept of garbage in, garbage out (GIGO) implies that th'
+dev-d02    answered s=1 ctxEv=False 22.8s :: 'In a DBMS, the information that describes tables and fields is kept in a data dictionary, '
+dev-d03    abstain  s=1 ctxEv=False 21.63s :: '[openstax-intro-cs:p370:B00] The final decision on who can access a dataset and how it can'
+dev-d04    answered s=1 ctxEv=True 14.49s :: "[openstax-intro-cs:p375:B01] A data steward, who ensures that the enterprise's actual busi"
+dev-d05    answered s=1 ctxEv=True 17.85s :: 'Guaranteeing full isolation of concurrent transactions in a relational database requires s'
+dev-d06    answered s=1 ctxEv=False 21.66s :: '[openstax-intro-cs:p388:B01] (page 388, chapter 8) explains that relational systems are no'
+dev-d07    answered s=1 ctxEv=False 14.63s :: 'Dr. Edgar F. first proposed the relational model of data, as mentioned on page [openstax-i'
+dev-d08    answered s=1 ctxEv=True 15.63s :: 'The Division operator is not directly implemented in SQL, as stated in [openstax-intro-cs:'
+dev-d09    answered s=1 ctxEv=True 18.01s :: '[openstax-intro-cs:p388:B00] A table is in third normal form (3NF) if it meets the conditi'
+dev-d10    answered s=1 ctxEv=True 13.72s :: 'The focus of online analytical processing (OLAP) is to use operational data for tactical o'
+dev-d11    answered s=1 ctxEv=False 15.27s :: "[openstax-intro-cs:p459:B01] According to the IEEE Computer Society's standard IEEE-Std-42"
+dev-d12    answered s=1 ctxEv=True 15.17s :: 'A generic software process framework encompasses four generic activities, also known as ph'
+dev-d13    answered s=1 ctxEv=True 14.0s :: 'The ongoing evolution of computing technology has made it common for maintenance costs of '
+dev-d14    answered s=1 ctxEv=True 13.33s :: 'Based on [openstax-intro-cs:p447:B01], responsiveness is especially critical in an Interne'
+dev-d15    answered s=1 ctxEv=False 15.05s :: 'The main criticism of traditional prescriptive process models is that they are perceived a'
+dev-d16    answered s=1 ctxEv=True 27.12s :: 'The role of an architect in software engineering is primarily that of the information arch'
+dev-d17    answered s=1 ctxEv=True 24.68s :: '[openstax-intro-cs:p458:B01] The passage does not directly answer the question about what '
+dev-d18    answered s=1 ctxEv=True 20.44s :: 'Scalability is defined as the measurement of the work and cost to increase a system’s thro'
+dev-t01    answered s=1 ctxEv=True 18.69s :: "If one of the courses is full during a student's registration, the registration transactio"
+dev-t02    answered s=1 ctxEv=True 16.37s :: 'The complete set of relational algebra operations includes Select, Project, Union, Rename,'
+dev-t03    answered s=1 ctxEv=True 56.77s :: 'Agile process models are generally not suitable for large-scale, high-risk, or mission-cri'
+dev-t04    answered s=1 ctxEv=False 54.34s :: '[openstax-intro-cs:p457:B04] The role of an architect in software engineering is to design'
+dev-t05    answered s=1 ctxEv=True 27.32s :: 'Embedded software is given to software that is built into hardware such as a smartwatch or'
+dev-t06    answered s=1 ctxEv=True 38.38s :: 'A database administrator (DBA) manages and maintains databases, ensuring they are secure, '
+dev-a1     abstain  s=1 ctxEv=None 11.16s :: 'INSUFFICIENT_EVIDENCE'
+dev-a2     abstain  s=1 ctxEv=None 19.5s :: 'INSUFFICIENT_EVIDENCE. The provided passages do not contain specific information about the'
+dev-a3     abstain  s=1 ctxEv=None 28.43s :: 'INSUFFICIENT_EVIDENCE'

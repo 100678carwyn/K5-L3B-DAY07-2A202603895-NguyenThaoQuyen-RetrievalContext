@@ -1,0 +1,152 @@
+{
+ "t-bang1": {
+  "pass": true,
+  "reason": "3,8 và 6,2, chênh 2,4 đúng; citation p19 (Bảng 1) chứa cả hai số.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bang2": {
+  "pass": true,
+  "reason": "479,2–547,6 đúng; số phụ 342,3–410,7 và 136,9 cũng đúng; citation p32 đúng.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bang3": {
+  "pass": true,
+  "reason": "-1,3 tỷ USD đúng; số kèm theo (-20,5; +19,3; 80,1; 81,3) khớp Bảng 3; citation p50.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bang4": {
+  "pass": true,
+  "reason": "GDP +3,3% và phát thải -71,9% đúng; citation phụ p52 (văn bản) xác nhận 3,3% và hơn 70% — đã kiểm.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bang5": {
+  "pass": true,
+  "reason": "+39 tỷ USD, +402% đúng; citation p57.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bang6": {
+  "pass": true,
+  "reason": "4,88 và 109,13, 109,13/4,88≈22,4 đúng; kết luận 'khoảng 22 lần' chấp nhận được; citation p91.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-anh1": {
+  "pass": true,
+  "reason": "Hai lộ trình đúng; chú thích trong ngoặc là diễn giải nhẹ nhưng không sai; citation p13 (Hình 1) đúng.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-anh2": {
+  "pass": true,
+  "reason": "Khu vực tư nhân 184 tỷ USD (3,4% GDP) đúng; thêm 130 và 54 đúng; citation p77 đúng.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-anh3": {
+  "pass": true,
+  "reason": "Quảng Ninh đúng; trích văn bản p58 'đặc biệt ở tỉnh Quảng Ninh' đã kiểm có thật.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-anh4": {
+  "pass": true,
+  "reason": "Đủ 5 thành phố đúng; citation p42 (Hình 11).",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-anh5": {
+  "pass": true,
+  "reason": "Ba loại thiên tai đúng; citation p37 (Hình 9).",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bd1": {
+  "pass": true,
+  "reason": "Thủy sản 4.219 triệu USD đúng; citation p17 (Hình 3).",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bd2": {
+  "pass": true,
+  "reason": "59% điện năng và 30% công suất đúng; p53 văn bản cũng nêu 30%/59%.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bd3": {
+  "pass": true,
+  "reason": "Điện 23,6% đúng; citation p72 (Hình 20).",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bd4": {
+  "pass": true,
+  "reason": "10,3 tỷ USD đúng; citation p78 (Hình 22).",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-bd5": {
+  "pass": true,
+  "reason": "Kim loại 14% đúng; citation p26 (Hình 7).",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-mh1": {
+  "pass": true,
+  "reason": "20/68≈29,4%≈30% và khớp Hình 12 đúng; citation p53 và p54 đủ hai nguồn.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-mh2": {
+  "pass": true,
+  "reason": "BIÊN GIỚI: 68 tỷ USD, lớn hơn +44 vì than đá -19 và khí -8 giảm: đúng. Nhưng lời giải thích phụ ('41 ... có thể do ... sinh khối') có ý suy đoán, 'sinh khối' không có trong Bảng 5 (phần chênh thực là lưu trữ +3). Chấm đạt vì ý chính đúng và có hedge; người chấm nghiêm có thể coi là không đạt.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-mh3": {
+  "pass": true,
+  "reason": "3,81 (văn bản), 3,8 (Bảng 1), 2,7 (Phụ lục 1), nêu đúng là không nhất quán; số 1,1 và ~29% tính đúng; citation p18, p19, p91 đủ ba nguồn.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-mh4": {
+  "pass": true,
+  "reason": "-1,3 tỷ USD (Bảng 3) và +3,3% (Bảng 4) đúng; citation p50 và p53.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-tx1": {
+  "pass": true,
+  "reason": "10 tỷ USD, 3,2% GDP đúng; chi tiết Hình 3 đúng; citation p17.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-tx2": {
+  "pass": true,
+  "reason": "50% và 95% đúng; citation p40.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-tx3": {
+  "pass": true,
+  "reason": "14% lên 99% đúng; citation p53.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-tx4": {
+  "pass": true,
+  "reason": "37% đúng; citation p70.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-a1": {
+  "pass": true,
+  "reason": "Từ chối đúng; nêu 79% diện tích Cà Mau và 17 tỷ USD cho cả ĐBSCL đều có trong p40; không bịa.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-a2": {
+  "pass": true,
+  "reason": "Từ chối đúng; nêu 81,3 và 368 tỷ USD đúng, không bịa số hydro.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-a3": {
+  "pass": true,
+  "reason": "Từ chối đúng; chỉ nêu tỷ trọng DNNN ngành Kim loại 14% (p26), không phải sản lượng thép.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-a4": {
+  "pass": true,
+  "reason": "Từ chối đúng; nêu báo cáo xuất bản 2022 và số liệu chung đúng (2,4 tỷ USD/năm, 0,8% GDP, p30).",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-a5": {
+  "pass": true,
+  "reason": "Từ chối đúng; không bịa số vốn đầu tư EVN.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ },
+ "t-a6": {
+  "pass": true,
+  "reason": "Từ chối đúng; chỉ nêu +26% (2040) và +16% (TB) đúng theo p56, không bịa đồng/kWh.",
+  "labeler": "Claude (AI) gán nhãn; sau đó học viên (Nguyễn Thảo Quyên) tự đối chiếu với bản gốc PDF và xác nhận khớp (16/11/2026, theo xác nhận của học viên)"
+ }
+}

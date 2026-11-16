@@ -1,0 +1,8 @@
+config,type,method,top_k,budget_chars,max_searches,neighbors,hypothesis,split,context_evidence_rate,agent_first_query_hit1,abstain_on_absent,false_abstain,mean_seconds,total_seconds,prompt_tokens,completion_tokens,cost_usd,notes
+base_dense,baseline/method1,dense (pgvector cosine; e5-small),3,2500,2,no,Day-6 dense index is a usable baseline,dev,16/24,12/24,3/3,3/24,22.0,593,35430,2737,0,
+base_bm25,method2,BM25 (pure python),3,2500,2,no,Lexical match helps rare terms but loses paraphrases,dev,14/24,12/24,2/3,3/24,32.0,864,36364,3005,0,one absent question answered instead of abstaining
+base_hybrid,method3,RRF(dense+bm25; k=60; pool=20),3,2500,2,no,Fusing both rankings raises recall,dev,17/24,11/24,3/3,1/24,22.4,605,35103,3066,0,
+imp_topk5,improvement1 (chosen),hybrid_rrf,5,4000,2,no,More candidates and larger budget raise Context Evidence Rate,dev,20/24,11/24,3/3,3/24,17.7,477,44120,2834,0,chosen by SELECTION_CRITERIA.md (tie with imp_neighbors; faster)
+imp_neighbors,improvement2,hybrid_rrf + adjacent chunk + up to 3 searches,3,4000,3,yes,Adjacent chunk and re-search recover split evidence,dev,20/24,11/24,3/3,3/24,21.9,591,44216,2904,0,
+base_dense,test baseline,dense,3,2500,2,no,-,test,6/6,6/6,2/2,0/6,26.3,210,10683,849,0,manual: answer 0/5/1 mean 1.17
+imp_topk5,test chosen,hybrid_rrf,5,4000,2,no,-,test,6/6,4/6,2/2,0/6,14.6,117,13285,751,0,manual: answer 0/4/2 mean 1.33

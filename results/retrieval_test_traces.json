@@ -1,0 +1,1202 @@
+[
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n01",
+  "question": "What does the term miniworld (universe of discourse) refer to in a database context?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B00",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.8998,
+    "hit": true,
+    "text": "concepts to describe the structure of a database, the operations for manipulating these structures, and certain constraints that the database should obey. A database is a collection of related data items within a specific business process or problem setting; an example of a large commercial database is the one maintained by amazon.com. A DBMS is the software package used to define, create, use, and maintain a database while considering appropriate security measures. A miniworld, or universe of discourse (UoD), represents some aspect of the real-world data that are stored in a database (e.g., student grades at a university)."
+   },
+   {
+    "id": "openstax-intro-cs:p377:B01",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.854,
+    "hit": false,
+    "text": "There are many characteristics of the database approach such as being superior to the file approach in terms of efficiency, consistency, and maintenance; providing loose coupling between applications and data as well as facilities for data querying and retrieval; removing redundancy and cleansing the data; supporting multiuser transactions that allow multiple users to access the same data and multiple views of the data; and allowing sharing data between users and applications.\n\nTHINK IT THROUGH\n\nUniversity Miniworld\n\nLet us think about the university as a miniworld. In this miniworld, we need to define a data dictionary to describe the following: students, courses, sections, departments, and instructors.\n\nSuggest a miniworld that would be part of a university environment. Define the main entries to be included such as STUDENTs = ID + FirstName + LastName.\n\nApplications of Database Technology"
+   },
+   {
+    "id": "openstax-intro-cs:p383:B01",
+    "page": 383,
+    "chapter": 8,
+    "score": 0.8184,
+    "hit": false,
+    "text": "Codd of IBM Research in 1970. A relation typically contains a set of rows. The data elements in each row represent certain facts that correspond to a real-world entity or relationship. In the formal model, rows are called tuples, each column has a column header that indicates the meaning of the data items in that column, and the column header is referred to as an attribute name or just as an attribute. Multiple attributes may be selected to form superkeys that uniquely identify individual tuples. Minimal superkeys are referred to as candidate keys. Candidate keys are considered minimal because they should only include a minimum number of attributes to uniquely identify individual tuples. For example, a car database may use the vehicle identification number (VIN) and the make of the vehicle attributes as a candidate key. Another possible candidate key could be obtained by using the license plate and state of the vehicle."
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n02",
+  "question": "Which DBMS component translates statements written in a high-level language into low-level instructions for the query evaluation engine?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p383:B03",
+    "page": 383,
+    "chapter": 8,
+    "score": 0.8455,
+    "hit": false,
+    "text": "The declarative language used in managing and querying structured data in a RDBMS is called Structured Query Language (SQL). SQL implements the four sublanguages mentioned earlier: DDL, DML, DQL, and DCL. SQL is based on relational algebra with many extensions. SQL supports primary keys, foreign keys, inserting data, deleting data, updating data, indexing, recovery, concurrency, and security. SQL focuses on efficiency in addition to specifying the data needed. The main commands in SQL are CREATE TABLE, which is used to create a new table in a database such as:"
+   },
+   {
+    "id": "openstax-intro-cs:p379:B01",
+    "page": 379,
+    "chapter": 8,
+    "score": 0.845,
+    "hit": true,
+    "text": "Figure 8.6 DBMS includes multiple components: DBMS interface, query processor, storage manager, connection manager, security manager, DDL compiler, and database utilities. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) A connection manager manages reports, books, objects, and batches. For each database, the connection manager provides the connection name, data source type, and value. A security manager is a collection of processes used to secure the database from threats. The data description language (DDL) compiler translates statements in a high-level language into low-level instructions that the query evaluation engine understands. A query processor acts as an intermediary between users and the DBMS data engine to communicate query requests including DML compiler, query parser, query rewriter, query optimizer, and query executor."
+   },
+   {
+    "id": "openstax-intro-cs:p459:B01",
+    "page": 459,
+    "chapter": 9,
+    "score": 0.8367,
+    "hit": false,
+    "text": "As mentioned earlier, the focus of the HLD software engineering action is on providing a general description of the overall system design. It can include information on the overall aspects of a system, including its architecture, data, systems, services, and platforms as well as the relationships among various modules and components. Its focus is achieved by converting the requirements into a high-level solution that can then be further refined as part of the Low-Level Design (LLD) software engineering action.\n\nLINK TO LEARNING\n\nThe IEEE Computer Society has proposed IEEE-Std-42010:2022, Software, Systems and Enterprise—Architecture Description (https://openstax.org/r/76IEEEEStd) as a standard that describes the use of architecture viewpoints, architecture frameworks, and architecture description languages (ADLs) as a means of codifying the conventions and common practices for architectural description.\n\nSoftware Design"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n03",
+  "question": "Is it possible to be employed as a software engineer while knowing only a single programming language?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p450:B00",
+    "page": 450,
+    "chapter": 9,
+    "score": 0.9188,
+    "hit": true,
+    "text": "functionality (like C++ or Java), while others are better suited for adding interactivity (like JavaScript). Understanding different languages allows software engineers to choose the right tool for the job. How Many Languages Should a Software Engineer Know?\n\nThere is no right or wrong answer to this question. It is possible, though not common, to be employed as a software engineer knowing only a single programming language. Typically, however, successful software engineers understand the different categories of programming languages and the common structure and design features of each."
+   },
+   {
+    "id": "openstax-intro-cs:p450:B01",
+    "page": 450,
+    "chapter": 9,
+    "score": 0.8786,
+    "hit": false,
+    "text": "It is often recommended that a software engineer learn a primary programming language that can be used for system-level programming such as C, C#, or C++. Additionally, in today’s world, a software engineer should understand object-oriented programming, which is done in languages like Python, C++, and Java. Because web development often is a part of solutions, knowing a scripting language, such as JavaScript, Python, PHP, Perl, or Ruby, is also beneficial. Finally, understanding markup languages such as HTML and XML is also important.\n\nOf course, the best languages to know are dependent on the projects that are worked on. If a software engineer is creating embedded solutions, then the programming language is likely going to be much different than if they are doing high-end gaming solutions or web-based solutions. Chapter 7 High-Level Programming Languages delves deeper into programming languages.\n\n9.2 Software Engineering Process\n\nLearning Objectives"
+   },
+   {
+    "id": "openstax-intro-cs:p449:B01",
+    "page": 449,
+    "chapter": 9,
+    "score": 0.873,
+    "hit": false,
+    "text": "Imagine a toolbox with specialized tools—a hammer for carpentry, or a paintbrush for art. Software engineers also use various tools, and some of their tools are programming languages! Just as the right tool makes a job more accessible, the correct programming language helps engineers build different software applications.\n\nCan You Guess the Language?\n\nIdentify the programming languages commonly used to build the following types of applications:\n\n• Mobile app (like Instagram)\n\n• Website (like Wikipedia)\n\n• Video game Possible answers include JavaScript, Python, C++, Java.\n\nWhy So Many Languages?\n\nEach programming language has its strengths. Some languages are great for building an application’s core"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n04",
+  "question": "In a UML class diagram of a domain model, what do the numbers at the associations express?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p455:B02",
+    "page": 455,
+    "chapter": 9,
+    "score": 0.8957,
+    "hit": true,
+    "text": "Associations are links that deserve to be stored in the system. For example, an association between AdaptiveCruiseControl and Car is required because when Adaptive Cruise Control is active, conceptual class AdaptiveCruiseControl needs access to the car. The numbers at associations are multiplicities, and they say that there is exactly one Car associated with each AdaptiveCruiseControl and that there is exactly one AdaptiveCruiseControl associated with each Car. Associations can have names, which facilitate reading and understanding the analysis model.\n\nThe UML notation may be applied to provide different perspectives as follows:\n\n• Conceptual perspective: The diagrams describe real-world concepts or things.\n\n• Specification (software) perspective: The diagrams describe software components.\n\n• Implementation (software) perspective: The diagrams describe software components in a particular technology, such as Java or .NET."
+   },
+   {
+    "id": "openstax-intro-cs:p455:B01",
+    "page": 455,
+    "chapter": 9,
+    "score": 0.8446,
+    "hit": false,
+    "text": "• BlindSpotDetection has attribute state (on/off).\n\n• Blinker has attribute state (on/off).\n\nFigure 9.5 illustrates a class diagram of a partial domain model. This diagram is specified using Unified Modeling Language (UML). UML is often used for modeling in projects as its visual representations provide clear, compact means of communicating among the developers. In UML class diagrams such as this, the numbers at associations are multiplicities, and the arrows specify the direction in which you are expected to read the association. For example, BlindSpotDetection monitors Car.\n\nFigure 9.5 A UML class diagram, in this case of a partial domain model, is used as a communication tool among developers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+   },
+   {
+    "id": "openstax-intro-cs:p456:B01",
+    "page": 456,
+    "chapter": 9,
+    "score": 0.8278,
+    "hit": false,
+    "text": "Figure 9.6 In this UML use case diagram illustrating an actor called “Driver,” the three use cases might be further grouped together and categorized as Car Control system. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) As part of requirements modeling, UML diagrams are drawn whenever they bring value to help provide a conceptual perspective of what the solution is meant to accomplish. They are generally not required to be complete or perfect. The use of UML in this manner is typically referred to as “UML as sketch,” and it involves informal and incomplete diagrams. Instead of drawing UML diagrams, it is possible to specify them via scripts to automate the creation of diagrams, which can save valuable time."
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n05",
+  "question": "What does logical design ignore when a solution is designed?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p457:B01",
+    "page": 457,
+    "chapter": 9,
+    "score": 0.8574,
+    "hit": true,
+    "text": "Logical design ignores any physical aspects. For example, a cruise control system needs to keep track of the maximum speed selected and whether the cruise control system is on or off. This information is gathered as part of the logical design and needs to be captured via a diagram that also identifies the corresponding relationships. This type of information is often captured as a set of entities (or actors) that enable the grouping of descriptive information and attributes.\n\nA graphical representation of the method for effectively implementing what was determined in the logical design of a software solution is a physical design. It includes defining where information comes from and where it goes within the planned system. It includes defining how information is obtained, processed, and/or how it is presented."
+   },
+   {
+    "id": "openstax-intro-cs:p457:B00",
+    "page": 457,
+    "chapter": 9,
+    "score": 0.8545,
+    "hit": false,
+    "text": "A detailed-level design model may then be derived from the high-level architecture model, and it is typically represented using a combination of low-level modeling languages (e.g., BPMN, UML, SysML). At this level of design, a conceptual solution that fulfills the requirements is created and seeks to answer the question “How will the system fulfill the requirements?” The conceptual solution leverages the inputs collected in the inception phase to design a software product. This information is generally organized into two types of design: logical and physical."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B03",
+    "page": 387,
+    "chapter": 8,
+    "score": 0.8464,
+    "hit": false,
+    "text": "The process of logical design involves designing a database based on a specific data model but independent of physical details. The logical design for a relational DBMS includes specifications for tables, relationships, and constraints. The logical design is performed in four steps: map conceptual model to logical model components, validate the logical model using normalization, validate logical model constraints, and validate the logical model against user requirements.\n\nTo determine the quality of relation schema design, we follow the informal design guidelines for relational schemas and use simple measures of quality such as making sure attribute semantics are clear, reducing redundant information, and reducing null values. Null values cause redundant work, which wastes storage space and increases the difficulty of performing operations.\n\nTECHNOLOGY IN EVERYDAY LIFE\n\nRDBMS"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n06",
+  "question": "Which example is given for a Geographic Information Systems (GIS) database application?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B02",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.8667,
+    "hit": true,
+    "text": "A database application is a program or piece of software designed to collect, store, access, retrieve, and manage information efficiently and securely. The following are some examples of database applications: multimedia applications (e.g., YouTube, Spotify), biometric applications (e.g., fingerprints, retina scans), wearable applications (e.g., Fitbit, Apple Watch), Geographic Information Systems (GIS) applications (e.g., Google Maps), sensor applications (e.g., nuclear power reactor), big data applications (e.g., Walmart), and IoT applications (e.g., Telematics).\n\nCONCEPTS IN PRACTICE\n\nSpecialized Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B03",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.8613,
+    "hit": false,
+    "text": "Database systems are fascinating because they must be given the ability to model various types of data at various levels of abstractions and various levels of details; therefore, it is possible to create specialized systems that can help people in various research domains and industries represent and use their data in the best possible way. For example, SciDB is an open-source data management system intended primarily for use in application areas that involve very large-scale array data. SciDB can be used to support a large variety of scientific applications used in astronomy, remote sensing and climate modeling, bioscience information management, risk management systems for financial applications, and web log data analysis.\n\nElements of Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B01",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.8277,
+    "hit": false,
+    "text": "There are many characteristics of the database approach such as being superior to the file approach in terms of efficiency, consistency, and maintenance; providing loose coupling between applications and data as well as facilities for data querying and retrieval; removing redundancy and cleansing the data; supporting multiuser transactions that allow multiple users to access the same data and multiple views of the data; and allowing sharing data between users and applications.\n\nTHINK IT THROUGH\n\nUniversity Miniworld\n\nLet us think about the university as a miniworld. In this miniworld, we need to define a data dictionary to describe the following: students, courses, sections, departments, and instructors.\n\nSuggest a miniworld that would be part of a university environment. Define the main entries to be included such as STUDENTs = ID + FirstName + LastName.\n\nApplications of Database Technology"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n01",
+  "question": "What does the term miniworld (universe of discourse) refer to in a database context?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B00",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.8998,
+    "hit": true,
+    "text": "concepts to describe the structure of a database, the operations for manipulating these structures, and certain constraints that the database should obey. A database is a collection of related data items within a specific business process or problem setting; an example of a large commercial database is the one maintained by amazon.com. A DBMS is the software package used to define, create, use, and maintain a database while considering appropriate security measures. A miniworld, or universe of discourse (UoD), represents some aspect of the real-world data that are stored in a database (e.g., student grades at a university)."
+   },
+   {
+    "id": "openstax-intro-cs:p377:B01",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.854,
+    "hit": false,
+    "text": "There are many characteristics of the database approach such as being superior to the file approach in terms of efficiency, consistency, and maintenance; providing loose coupling between applications and data as well as facilities for data querying and retrieval; removing redundancy and cleansing the data; supporting multiuser transactions that allow multiple users to access the same data and multiple views of the data; and allowing sharing data between users and applications.\n\nTHINK IT THROUGH\n\nUniversity Miniworld\n\nLet us think about the university as a miniworld. In this miniworld, we need to define a data dictionary to describe the following: students, courses, sections, departments, and instructors.\n\nSuggest a miniworld that would be part of a university environment. Define the main entries to be included such as STUDENTs = ID + FirstName + LastName.\n\nApplications of Database Technology"
+   },
+   {
+    "id": "openstax-intro-cs:p383:B01",
+    "page": 383,
+    "chapter": 8,
+    "score": 0.8184,
+    "hit": false,
+    "text": "Codd of IBM Research in 1970. A relation typically contains a set of rows. The data elements in each row represent certain facts that correspond to a real-world entity or relationship. In the formal model, rows are called tuples, each column has a column header that indicates the meaning of the data items in that column, and the column header is referred to as an attribute name or just as an attribute. Multiple attributes may be selected to form superkeys that uniquely identify individual tuples. Minimal superkeys are referred to as candidate keys. Candidate keys are considered minimal because they should only include a minimum number of attributes to uniquely identify individual tuples. For example, a car database may use the vehicle identification number (VIN) and the make of the vehicle attributes as a candidate key. Another possible candidate key could be obtained by using the license plate and state of the vehicle."
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n02",
+  "question": "Which DBMS component translates statements written in a high-level language into low-level instructions for the query evaluation engine?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p383:B03",
+    "page": 383,
+    "chapter": 8,
+    "score": 0.8455,
+    "hit": false,
+    "text": "The declarative language used in managing and querying structured data in a RDBMS is called Structured Query Language (SQL). SQL implements the four sublanguages mentioned earlier: DDL, DML, DQL, and DCL. SQL is based on relational algebra with many extensions. SQL supports primary keys, foreign keys, inserting data, deleting data, updating data, indexing, recovery, concurrency, and security. SQL focuses on efficiency in addition to specifying the data needed. The main commands in SQL are CREATE TABLE, which is used to create a new table in a database such as:"
+   },
+   {
+    "id": "openstax-intro-cs:p379:B01",
+    "page": 379,
+    "chapter": 8,
+    "score": 0.845,
+    "hit": true,
+    "text": "Figure 8.6 DBMS includes multiple components: DBMS interface, query processor, storage manager, connection manager, security manager, DDL compiler, and database utilities. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) A connection manager manages reports, books, objects, and batches. For each database, the connection manager provides the connection name, data source type, and value. A security manager is a collection of processes used to secure the database from threats. The data description language (DDL) compiler translates statements in a high-level language into low-level instructions that the query evaluation engine understands. A query processor acts as an intermediary between users and the DBMS data engine to communicate query requests including DML compiler, query parser, query rewriter, query optimizer, and query executor."
+   },
+   {
+    "id": "openstax-intro-cs:p459:B01",
+    "page": 459,
+    "chapter": 9,
+    "score": 0.8367,
+    "hit": false,
+    "text": "As mentioned earlier, the focus of the HLD software engineering action is on providing a general description of the overall system design. It can include information on the overall aspects of a system, including its architecture, data, systems, services, and platforms as well as the relationships among various modules and components. Its focus is achieved by converting the requirements into a high-level solution that can then be further refined as part of the Low-Level Design (LLD) software engineering action.\n\nLINK TO LEARNING\n\nThe IEEE Computer Society has proposed IEEE-Std-42010:2022, Software, Systems and Enterprise—Architecture Description (https://openstax.org/r/76IEEEEStd) as a standard that describes the use of architecture viewpoints, architecture frameworks, and architecture description languages (ADLs) as a means of codifying the conventions and common practices for architectural description.\n\nSoftware Design"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n03",
+  "question": "Is it possible to be employed as a software engineer while knowing only a single programming language?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p450:B00",
+    "page": 450,
+    "chapter": 9,
+    "score": 0.9188,
+    "hit": true,
+    "text": "functionality (like C++ or Java), while others are better suited for adding interactivity (like JavaScript). Understanding different languages allows software engineers to choose the right tool for the job. How Many Languages Should a Software Engineer Know?\n\nThere is no right or wrong answer to this question. It is possible, though not common, to be employed as a software engineer knowing only a single programming language. Typically, however, successful software engineers understand the different categories of programming languages and the common structure and design features of each."
+   },
+   {
+    "id": "openstax-intro-cs:p450:B01",
+    "page": 450,
+    "chapter": 9,
+    "score": 0.8786,
+    "hit": false,
+    "text": "It is often recommended that a software engineer learn a primary programming language that can be used for system-level programming such as C, C#, or C++. Additionally, in today’s world, a software engineer should understand object-oriented programming, which is done in languages like Python, C++, and Java. Because web development often is a part of solutions, knowing a scripting language, such as JavaScript, Python, PHP, Perl, or Ruby, is also beneficial. Finally, understanding markup languages such as HTML and XML is also important.\n\nOf course, the best languages to know are dependent on the projects that are worked on. If a software engineer is creating embedded solutions, then the programming language is likely going to be much different than if they are doing high-end gaming solutions or web-based solutions. Chapter 7 High-Level Programming Languages delves deeper into programming languages.\n\n9.2 Software Engineering Process\n\nLearning Objectives"
+   },
+   {
+    "id": "openstax-intro-cs:p449:B01",
+    "page": 449,
+    "chapter": 9,
+    "score": 0.873,
+    "hit": false,
+    "text": "Imagine a toolbox with specialized tools—a hammer for carpentry, or a paintbrush for art. Software engineers also use various tools, and some of their tools are programming languages! Just as the right tool makes a job more accessible, the correct programming language helps engineers build different software applications.\n\nCan You Guess the Language?\n\nIdentify the programming languages commonly used to build the following types of applications:\n\n• Mobile app (like Instagram)\n\n• Website (like Wikipedia)\n\n• Video game Possible answers include JavaScript, Python, C++, Java.\n\nWhy So Many Languages?\n\nEach programming language has its strengths. Some languages are great for building an application’s core"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": true,
+  "query_id": "test-n04",
+  "question": "In a UML class diagram of a domain model, what do the numbers at the associations express?",
+  "filter": {
+   "chapter": 9
+  },
+  "top": [
+   {
+    "id": "openstax-intro-cs:p455:B02",
+    "page": 455,
+    "chapter": 9,
+    "score": 0.8957,
+    "hit": true,
+    "text": "Associations are links that deserve to be stored in the system. For example, an association between AdaptiveCruiseControl and Car is required because when Adaptive Cruise Control is active, conceptual class AdaptiveCruiseControl needs access to the car. The numbers at associations are multiplicities, and they say that there is exactly one Car associated with each AdaptiveCruiseControl and that there is exactly one AdaptiveCruiseControl associated with each Car. Associations can have names, which facilitate reading and understanding the analysis model.\n\nThe UML notation may be applied to provide different perspectives as follows:\n\n• Conceptual perspective: The diagrams describe real-world concepts or things.\n\n• Specification (software) perspective: The diagrams describe software components.\n\n• Implementation (software) perspective: The diagrams describe software components in a particular technology, such as Java or .NET."
+   },
+   {
+    "id": "openstax-intro-cs:p455:B01",
+    "page": 455,
+    "chapter": 9,
+    "score": 0.8446,
+    "hit": false,
+    "text": "• BlindSpotDetection has attribute state (on/off).\n\n• Blinker has attribute state (on/off).\n\nFigure 9.5 illustrates a class diagram of a partial domain model. This diagram is specified using Unified Modeling Language (UML). UML is often used for modeling in projects as its visual representations provide clear, compact means of communicating among the developers. In UML class diagrams such as this, the numbers at associations are multiplicities, and the arrows specify the direction in which you are expected to read the association. For example, BlindSpotDetection monitors Car.\n\nFigure 9.5 A UML class diagram, in this case of a partial domain model, is used as a communication tool among developers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+   },
+   {
+    "id": "openstax-intro-cs:p456:B01",
+    "page": 456,
+    "chapter": 9,
+    "score": 0.8278,
+    "hit": false,
+    "text": "Figure 9.6 In this UML use case diagram illustrating an actor called “Driver,” the three use cases might be further grouped together and categorized as Car Control system. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) As part of requirements modeling, UML diagrams are drawn whenever they bring value to help provide a conceptual perspective of what the solution is meant to accomplish. They are generally not required to be complete or perfect. The use of UML in this manner is typically referred to as “UML as sketch,” and it involves informal and incomplete diagrams. Instead of drawing UML diagrams, it is possible to specify them via scripts to automate the creation of diagrams, which can save valuable time."
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": false,
+  "query_id": "test-n05",
+  "question": "What does logical design ignore when a solution is designed?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p457:B01",
+    "page": 457,
+    "chapter": 9,
+    "score": 0.8574,
+    "hit": true,
+    "text": "Logical design ignores any physical aspects. For example, a cruise control system needs to keep track of the maximum speed selected and whether the cruise control system is on or off. This information is gathered as part of the logical design and needs to be captured via a diagram that also identifies the corresponding relationships. This type of information is often captured as a set of entities (or actors) that enable the grouping of descriptive information and attributes.\n\nA graphical representation of the method for effectively implementing what was determined in the logical design of a software solution is a physical design. It includes defining where information comes from and where it goes within the planned system. It includes defining how information is obtained, processed, and/or how it is presented."
+   },
+   {
+    "id": "openstax-intro-cs:p457:B00",
+    "page": 457,
+    "chapter": 9,
+    "score": 0.8545,
+    "hit": false,
+    "text": "A detailed-level design model may then be derived from the high-level architecture model, and it is typically represented using a combination of low-level modeling languages (e.g., BPMN, UML, SysML). At this level of design, a conceptual solution that fulfills the requirements is created and seeks to answer the question “How will the system fulfill the requirements?” The conceptual solution leverages the inputs collected in the inception phase to design a software product. This information is generally organized into two types of design: logical and physical."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B03",
+    "page": 387,
+    "chapter": 8,
+    "score": 0.8464,
+    "hit": false,
+    "text": "The process of logical design involves designing a database based on a specific data model but independent of physical details. The logical design for a relational DBMS includes specifications for tables, relationships, and constraints. The logical design is performed in four steps: map conceptual model to logical model components, validate the logical model using normalization, validate logical model constraints, and validate the logical model against user requirements.\n\nTo determine the quality of relation schema design, we follow the informal design guidelines for relational schemas and use simple measures of quality such as making sure attribute semantics are clear, reducing redundant information, and reducing null values. Null values cause redundant work, which wastes storage space and increases the difficulty of performing operations.\n\nTECHNOLOGY IN EVERYDAY LIFE\n\nRDBMS"
+   }
+  ]
+ },
+ {
+  "method": "dense",
+  "filter_applied": true,
+  "query_id": "test-n06",
+  "question": "Which example is given for a Geographic Information Systems (GIS) database application?",
+  "filter": {
+   "chapter": 8
+  },
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B02",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.8667,
+    "hit": true,
+    "text": "A database application is a program or piece of software designed to collect, store, access, retrieve, and manage information efficiently and securely. The following are some examples of database applications: multimedia applications (e.g., YouTube, Spotify), biometric applications (e.g., fingerprints, retina scans), wearable applications (e.g., Fitbit, Apple Watch), Geographic Information Systems (GIS) applications (e.g., Google Maps), sensor applications (e.g., nuclear power reactor), big data applications (e.g., Walmart), and IoT applications (e.g., Telematics).\n\nCONCEPTS IN PRACTICE\n\nSpecialized Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B03",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.8613,
+    "hit": false,
+    "text": "Database systems are fascinating because they must be given the ability to model various types of data at various levels of abstractions and various levels of details; therefore, it is possible to create specialized systems that can help people in various research domains and industries represent and use their data in the best possible way. For example, SciDB is an open-source data management system intended primarily for use in application areas that involve very large-scale array data. SciDB can be used to support a large variety of scientific applications used in astronomy, remote sensing and climate modeling, bioscience information management, risk management systems for financial applications, and web log data analysis.\n\nElements of Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B01",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.8277,
+    "hit": false,
+    "text": "There are many characteristics of the database approach such as being superior to the file approach in terms of efficiency, consistency, and maintenance; providing loose coupling between applications and data as well as facilities for data querying and retrieval; removing redundancy and cleansing the data; supporting multiuser transactions that allow multiple users to access the same data and multiple views of the data; and allowing sharing data between users and applications.\n\nTHINK IT THROUGH\n\nUniversity Miniworld\n\nLet us think about the university as a miniworld. In this miniworld, we need to define a data dictionary to describe the following: students, courses, sections, departments, and instructors.\n\nSuggest a miniworld that would be part of a university environment. Define the main entries to be included such as STUDENTs = ID + FirstName + LastName.\n\nApplications of Database Technology"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n01",
+  "question": "What does the term miniworld (universe of discourse) refer to in a database context?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B00",
+    "page": 377,
+    "chapter": 8,
+    "score": 17.9438,
+    "hit": true,
+    "text": "concepts to describe the structure of a database, the operations for manipulating these structures, and certain constraints that the database should obey. A database is a collection of related data items within a specific business process or problem setting; an example of a large commercial database is the one maintained by amazon.com. A DBMS is the software package used to define, create, use, and maintain a database while considering appropriate security measures. A miniworld, or universe of discourse (UoD), represents some aspect of the real-world data that are stored in a database (e.g., student grades at a university)."
+   },
+   {
+    "id": "openstax-intro-cs:p377:B01",
+    "page": 377,
+    "chapter": 8,
+    "score": 9.4142,
+    "hit": false,
+    "text": "There are many characteristics of the database approach such as being superior to the file approach in terms of efficiency, consistency, and maintenance; providing loose coupling between applications and data as well as facilities for data querying and retrieval; removing redundancy and cleansing the data; supporting multiuser transactions that allow multiple users to access the same data and multiple views of the data; and allowing sharing data between users and applications.\n\nTHINK IT THROUGH\n\nUniversity Miniworld\n\nLet us think about the university as a miniworld. In this miniworld, we need to define a data dictionary to describe the following: students, courses, sections, departments, and instructors.\n\nSuggest a miniworld that would be part of a university environment. Define the main entries to be included such as STUDENTs = ID + FirstName + LastName.\n\nApplications of Database Technology"
+   },
+   {
+    "id": "openstax-intro-cs:p374:B02",
+    "page": 374,
+    "chapter": 8,
+    "score": 5.6872,
+    "hit": false,
+    "text": "It is possible to annotate the data with data quality metadata as a short-term solution. Unfortunately, many data governance efforts (if any) are mostly reactive and ad hoc.\n\nGLOBAL ISSUES IN TECHNOLOGY\n\nHacked!"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n02",
+  "question": "Which DBMS component translates statements written in a high-level language into low-level instructions for the query evaluation engine?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p379:B01",
+    "page": 379,
+    "chapter": 8,
+    "score": 42.8673,
+    "hit": true,
+    "text": "Figure 8.6 DBMS includes multiple components: DBMS interface, query processor, storage manager, connection manager, security manager, DDL compiler, and database utilities. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) A connection manager manages reports, books, objects, and batches. For each database, the connection manager provides the connection name, data source type, and value. A security manager is a collection of processes used to secure the database from threats. The data description language (DDL) compiler translates statements in a high-level language into low-level instructions that the query evaluation engine understands. A query processor acts as an intermediary between users and the DBMS data engine to communicate query requests including DML compiler, query parser, query rewriter, query optimizer, and query executor."
+   },
+   {
+    "id": "openstax-intro-cs:p457:B00",
+    "page": 457,
+    "chapter": 9,
+    "score": 14.8001,
+    "hit": false,
+    "text": "A detailed-level design model may then be derived from the high-level architecture model, and it is typically represented using a combination of low-level modeling languages (e.g., BPMN, UML, SysML). At this level of design, a conceptual solution that fulfills the requirements is created and seeks to answer the question “How will the system fulfill the requirements?” The conceptual solution leverages the inputs collected in the inception phase to design a software product. This information is generally organized into two types of design: logical and physical."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B02",
+    "page": 387,
+    "chapter": 8,
+    "score": 13.9692,
+    "hit": false,
+    "text": "The existential quantifier (∃ or EXISTS) and universal quantifier (∀ or FOR ALL) are also supported in domain relational calculus.\n\nQuery-by-Example (QBE) Language\n\nThe relational database language based on domain relational calculus is called query-by-example (QBE). QBE queries are expressed via a graphical query language, using visual tables where the user enters commands, example elements, and conditions. A parser converts the QBE graphical queries into statements expressed in a database manipulation language, such as SQL.\n\nLogical Design"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n03",
+  "question": "Is it possible to be employed as a software engineer while knowing only a single programming language?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p450:B00",
+    "page": 450,
+    "chapter": 9,
+    "score": 31.4463,
+    "hit": true,
+    "text": "functionality (like C++ or Java), while others are better suited for adding interactivity (like JavaScript). Understanding different languages allows software engineers to choose the right tool for the job. How Many Languages Should a Software Engineer Know?\n\nThere is no right or wrong answer to this question. It is possible, though not common, to be employed as a software engineer knowing only a single programming language. Typically, however, successful software engineers understand the different categories of programming languages and the common structure and design features of each."
+   },
+   {
+    "id": "openstax-intro-cs:p450:B01",
+    "page": 450,
+    "chapter": 9,
+    "score": 16.1692,
+    "hit": false,
+    "text": "It is often recommended that a software engineer learn a primary programming language that can be used for system-level programming such as C, C#, or C++. Additionally, in today’s world, a software engineer should understand object-oriented programming, which is done in languages like Python, C++, and Java. Because web development often is a part of solutions, knowing a scripting language, such as JavaScript, Python, PHP, Perl, or Ruby, is also beneficial. Finally, understanding markup languages such as HTML and XML is also important.\n\nOf course, the best languages to know are dependent on the projects that are worked on. If a software engineer is creating embedded solutions, then the programming language is likely going to be much different than if they are doing high-end gaming solutions or web-based solutions. Chapter 7 High-Level Programming Languages delves deeper into programming languages.\n\n9.2 Software Engineering Process\n\nLearning Objectives"
+   },
+   {
+    "id": "openstax-intro-cs:p445:B02",
+    "page": 445,
+    "chapter": 9,
+    "score": 13.0483,
+    "hit": false,
+    "text": "There have also been dramatic changes in processor technology. Twenty years ago, most processors consisted of a single core, while now it is common for a processor to have multiple cores and coprocessors. This requires changes in how software is programmed because software that can utilize multiple processor cores has a competitive advantage compared with software that uses only a single core. To support these new capabilities, major programming languages have evolved toward supporting multithreading, which makes maintenance of a legacy code base even more challenging.\n\nCONCEPTS IN PRACTICE\n\nThe Ever-Changing World of Software Platforms"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n04",
+  "question": "In a UML class diagram of a domain model, what do the numbers at the associations express?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p455:B01",
+    "page": 455,
+    "chapter": 9,
+    "score": 30.7699,
+    "hit": false,
+    "text": "• BlindSpotDetection has attribute state (on/off).\n\n• Blinker has attribute state (on/off).\n\nFigure 9.5 illustrates a class diagram of a partial domain model. This diagram is specified using Unified Modeling Language (UML). UML is often used for modeling in projects as its visual representations provide clear, compact means of communicating among the developers. In UML class diagrams such as this, the numbers at associations are multiplicities, and the arrows specify the direction in which you are expected to read the association. For example, BlindSpotDetection monitors Car.\n\nFigure 9.5 A UML class diagram, in this case of a partial domain model, is used as a communication tool among developers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+   },
+   {
+    "id": "openstax-intro-cs:p372:B02",
+    "page": 372,
+    "chapter": 8,
+    "score": 19.5993,
+    "hit": false,
+    "text": "Metadata Modeling\n\nA business presentation of metadata is metadata modeling. A database design process can be used to design a conceptual model of a database storing metadata as an enhanced entity–relationship (EER) model (Figure 8.3) or unified modeling language (UML) model. EER and UML are used to create models for designing large systems. Metadata modeling may cover various views of these models. For example, EER models and UML class diagrams help express views of a data model. While EER focuses purely on data modeling, the UML notation may be used to express comprehensive models of information systems using additional diagrams. Figure 8.3 This EER diagram models a product entity and states that a product can be either shipped or picked up but not both. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+   },
+   {
+    "id": "openstax-intro-cs:p455:B02",
+    "page": 455,
+    "chapter": 9,
+    "score": 18.2172,
+    "hit": true,
+    "text": "Associations are links that deserve to be stored in the system. For example, an association between AdaptiveCruiseControl and Car is required because when Adaptive Cruise Control is active, conceptual class AdaptiveCruiseControl needs access to the car. The numbers at associations are multiplicities, and they say that there is exactly one Car associated with each AdaptiveCruiseControl and that there is exactly one AdaptiveCruiseControl associated with each Car. Associations can have names, which facilitate reading and understanding the analysis model.\n\nThe UML notation may be applied to provide different perspectives as follows:\n\n• Conceptual perspective: The diagrams describe real-world concepts or things.\n\n• Specification (software) perspective: The diagrams describe software components.\n\n• Implementation (software) perspective: The diagrams describe software components in a particular technology, such as Java or .NET."
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n05",
+  "question": "What does logical design ignore when a solution is designed?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p457:B01",
+    "page": 457,
+    "chapter": 9,
+    "score": 8.9107,
+    "hit": true,
+    "text": "Logical design ignores any physical aspects. For example, a cruise control system needs to keep track of the maximum speed selected and whether the cruise control system is on or off. This information is gathered as part of the logical design and needs to be captured via a diagram that also identifies the corresponding relationships. This type of information is often captured as a set of entities (or actors) that enable the grouping of descriptive information and attributes.\n\nA graphical representation of the method for effectively implementing what was determined in the logical design of a software solution is a physical design. It includes defining where information comes from and where it goes within the planned system. It includes defining how information is obtained, processed, and/or how it is presented."
+   },
+   {
+    "id": "openstax-intro-cs:p457:B00",
+    "page": 457,
+    "chapter": 9,
+    "score": 8.6032,
+    "hit": false,
+    "text": "A detailed-level design model may then be derived from the high-level architecture model, and it is typically represented using a combination of low-level modeling languages (e.g., BPMN, UML, SysML). At this level of design, a conceptual solution that fulfills the requirements is created and seeks to answer the question “How will the system fulfill the requirements?” The conceptual solution leverages the inputs collected in the inception phase to design a software product. This information is generally organized into two types of design: logical and physical."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B03",
+    "page": 387,
+    "chapter": 8,
+    "score": 8.0988,
+    "hit": false,
+    "text": "The process of logical design involves designing a database based on a specific data model but independent of physical details. The logical design for a relational DBMS includes specifications for tables, relationships, and constraints. The logical design is performed in four steps: map conceptual model to logical model components, validate the logical model using normalization, validate logical model constraints, and validate the logical model against user requirements.\n\nTo determine the quality of relation schema design, we follow the informal design guidelines for relational schemas and use simple measures of quality such as making sure attribute semantics are clear, reducing redundant information, and reducing null values. Null values cause redundant work, which wastes storage space and increases the difficulty of performing operations.\n\nTECHNOLOGY IN EVERYDAY LIFE\n\nRDBMS"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n06",
+  "question": "Which example is given for a Geographic Information Systems (GIS) database application?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B02",
+    "page": 377,
+    "chapter": 8,
+    "score": 19.4686,
+    "hit": true,
+    "text": "A database application is a program or piece of software designed to collect, store, access, retrieve, and manage information efficiently and securely. The following are some examples of database applications: multimedia applications (e.g., YouTube, Spotify), biometric applications (e.g., fingerprints, retina scans), wearable applications (e.g., Fitbit, Apple Watch), Geographic Information Systems (GIS) applications (e.g., Google Maps), sensor applications (e.g., nuclear power reactor), big data applications (e.g., Walmart), and IoT applications (e.g., Telematics).\n\nCONCEPTS IN PRACTICE\n\nSpecialized Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B03",
+    "page": 377,
+    "chapter": 8,
+    "score": 12.6444,
+    "hit": false,
+    "text": "Database systems are fascinating because they must be given the ability to model various types of data at various levels of abstractions and various levels of details; therefore, it is possible to create specialized systems that can help people in various research domains and industries represent and use their data in the best possible way. For example, SciDB is an open-source data management system intended primarily for use in application areas that involve very large-scale array data. SciDB can be used to support a large variety of scientific applications used in astronomy, remote sensing and climate modeling, bioscience information management, risk management systems for financial applications, and web log data analysis.\n\nElements of Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p375:B00",
+    "page": 375,
+    "chapter": 8,
+    "score": 9.7331,
+    "hit": false,
+    "text": "The information architect collaborates with the database designer who may assist in choosing the type of conceptual data model (e.g., EER or UML) and the database modeling tool. Figure 8.5 shows an example of different database systems that various personnel working in data management may encounter. Figure 8.5 Existing database systems can be categorized as nonrelational and relational. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\n\nDatabase Designer\n\nA database designer is responsible for creating, implementing, and maintaining the database management system. Other responsibilities include translating the conceptual data model into a logical and internal data model, assisting the application developers in defining the views of the external data model, and defining company-wide uniform naming conventions when creating the various data models.\n\nData Owner"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n01",
+  "question": "What does the term miniworld (universe of discourse) refer to in a database context?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B00",
+    "page": 377,
+    "chapter": 8,
+    "score": 17.9438,
+    "hit": true,
+    "text": "concepts to describe the structure of a database, the operations for manipulating these structures, and certain constraints that the database should obey. A database is a collection of related data items within a specific business process or problem setting; an example of a large commercial database is the one maintained by amazon.com. A DBMS is the software package used to define, create, use, and maintain a database while considering appropriate security measures. A miniworld, or universe of discourse (UoD), represents some aspect of the real-world data that are stored in a database (e.g., student grades at a university)."
+   },
+   {
+    "id": "openstax-intro-cs:p377:B01",
+    "page": 377,
+    "chapter": 8,
+    "score": 9.4142,
+    "hit": false,
+    "text": "There are many characteristics of the database approach such as being superior to the file approach in terms of efficiency, consistency, and maintenance; providing loose coupling between applications and data as well as facilities for data querying and retrieval; removing redundancy and cleansing the data; supporting multiuser transactions that allow multiple users to access the same data and multiple views of the data; and allowing sharing data between users and applications.\n\nTHINK IT THROUGH\n\nUniversity Miniworld\n\nLet us think about the university as a miniworld. In this miniworld, we need to define a data dictionary to describe the following: students, courses, sections, departments, and instructors.\n\nSuggest a miniworld that would be part of a university environment. Define the main entries to be included such as STUDENTs = ID + FirstName + LastName.\n\nApplications of Database Technology"
+   },
+   {
+    "id": "openstax-intro-cs:p374:B02",
+    "page": 374,
+    "chapter": 8,
+    "score": 5.6872,
+    "hit": false,
+    "text": "It is possible to annotate the data with data quality metadata as a short-term solution. Unfortunately, many data governance efforts (if any) are mostly reactive and ad hoc.\n\nGLOBAL ISSUES IN TECHNOLOGY\n\nHacked!"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n02",
+  "question": "Which DBMS component translates statements written in a high-level language into low-level instructions for the query evaluation engine?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p379:B01",
+    "page": 379,
+    "chapter": 8,
+    "score": 42.8673,
+    "hit": true,
+    "text": "Figure 8.6 DBMS includes multiple components: DBMS interface, query processor, storage manager, connection manager, security manager, DDL compiler, and database utilities. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) A connection manager manages reports, books, objects, and batches. For each database, the connection manager provides the connection name, data source type, and value. A security manager is a collection of processes used to secure the database from threats. The data description language (DDL) compiler translates statements in a high-level language into low-level instructions that the query evaluation engine understands. A query processor acts as an intermediary between users and the DBMS data engine to communicate query requests including DML compiler, query parser, query rewriter, query optimizer, and query executor."
+   },
+   {
+    "id": "openstax-intro-cs:p457:B00",
+    "page": 457,
+    "chapter": 9,
+    "score": 14.8001,
+    "hit": false,
+    "text": "A detailed-level design model may then be derived from the high-level architecture model, and it is typically represented using a combination of low-level modeling languages (e.g., BPMN, UML, SysML). At this level of design, a conceptual solution that fulfills the requirements is created and seeks to answer the question “How will the system fulfill the requirements?” The conceptual solution leverages the inputs collected in the inception phase to design a software product. This information is generally organized into two types of design: logical and physical."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B02",
+    "page": 387,
+    "chapter": 8,
+    "score": 13.9692,
+    "hit": false,
+    "text": "The existential quantifier (∃ or EXISTS) and universal quantifier (∀ or FOR ALL) are also supported in domain relational calculus.\n\nQuery-by-Example (QBE) Language\n\nThe relational database language based on domain relational calculus is called query-by-example (QBE). QBE queries are expressed via a graphical query language, using visual tables where the user enters commands, example elements, and conditions. A parser converts the QBE graphical queries into statements expressed in a database manipulation language, such as SQL.\n\nLogical Design"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n03",
+  "question": "Is it possible to be employed as a software engineer while knowing only a single programming language?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p450:B00",
+    "page": 450,
+    "chapter": 9,
+    "score": 31.4463,
+    "hit": true,
+    "text": "functionality (like C++ or Java), while others are better suited for adding interactivity (like JavaScript). Understanding different languages allows software engineers to choose the right tool for the job. How Many Languages Should a Software Engineer Know?\n\nThere is no right or wrong answer to this question. It is possible, though not common, to be employed as a software engineer knowing only a single programming language. Typically, however, successful software engineers understand the different categories of programming languages and the common structure and design features of each."
+   },
+   {
+    "id": "openstax-intro-cs:p450:B01",
+    "page": 450,
+    "chapter": 9,
+    "score": 16.1692,
+    "hit": false,
+    "text": "It is often recommended that a software engineer learn a primary programming language that can be used for system-level programming such as C, C#, or C++. Additionally, in today’s world, a software engineer should understand object-oriented programming, which is done in languages like Python, C++, and Java. Because web development often is a part of solutions, knowing a scripting language, such as JavaScript, Python, PHP, Perl, or Ruby, is also beneficial. Finally, understanding markup languages such as HTML and XML is also important.\n\nOf course, the best languages to know are dependent on the projects that are worked on. If a software engineer is creating embedded solutions, then the programming language is likely going to be much different than if they are doing high-end gaming solutions or web-based solutions. Chapter 7 High-Level Programming Languages delves deeper into programming languages.\n\n9.2 Software Engineering Process\n\nLearning Objectives"
+   },
+   {
+    "id": "openstax-intro-cs:p445:B02",
+    "page": 445,
+    "chapter": 9,
+    "score": 13.0483,
+    "hit": false,
+    "text": "There have also been dramatic changes in processor technology. Twenty years ago, most processors consisted of a single core, while now it is common for a processor to have multiple cores and coprocessors. This requires changes in how software is programmed because software that can utilize multiple processor cores has a competitive advantage compared with software that uses only a single core. To support these new capabilities, major programming languages have evolved toward supporting multithreading, which makes maintenance of a legacy code base even more challenging.\n\nCONCEPTS IN PRACTICE\n\nThe Ever-Changing World of Software Platforms"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": true,
+  "query_id": "test-n04",
+  "question": "In a UML class diagram of a domain model, what do the numbers at the associations express?",
+  "filter": {
+   "chapter": 9
+  },
+  "top": [
+   {
+    "id": "openstax-intro-cs:p455:B01",
+    "page": 455,
+    "chapter": 9,
+    "score": 30.7699,
+    "hit": false,
+    "text": "• BlindSpotDetection has attribute state (on/off).\n\n• Blinker has attribute state (on/off).\n\nFigure 9.5 illustrates a class diagram of a partial domain model. This diagram is specified using Unified Modeling Language (UML). UML is often used for modeling in projects as its visual representations provide clear, compact means of communicating among the developers. In UML class diagrams such as this, the numbers at associations are multiplicities, and the arrows specify the direction in which you are expected to read the association. For example, BlindSpotDetection monitors Car.\n\nFigure 9.5 A UML class diagram, in this case of a partial domain model, is used as a communication tool among developers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+   },
+   {
+    "id": "openstax-intro-cs:p455:B02",
+    "page": 455,
+    "chapter": 9,
+    "score": 18.2172,
+    "hit": true,
+    "text": "Associations are links that deserve to be stored in the system. For example, an association between AdaptiveCruiseControl and Car is required because when Adaptive Cruise Control is active, conceptual class AdaptiveCruiseControl needs access to the car. The numbers at associations are multiplicities, and they say that there is exactly one Car associated with each AdaptiveCruiseControl and that there is exactly one AdaptiveCruiseControl associated with each Car. Associations can have names, which facilitate reading and understanding the analysis model.\n\nThe UML notation may be applied to provide different perspectives as follows:\n\n• Conceptual perspective: The diagrams describe real-world concepts or things.\n\n• Specification (software) perspective: The diagrams describe software components.\n\n• Implementation (software) perspective: The diagrams describe software components in a particular technology, such as Java or .NET."
+   },
+   {
+    "id": "openstax-intro-cs:p455:B00",
+    "page": 455,
+    "chapter": 9,
+    "score": 13.4858,
+    "hit": false,
+    "text": "of software requirements is called requirements modeling. The goal of this action is to answer the question “What will the system do?” The focus is purely conceptual, and implementation details are not considered. The main purpose of this analysis is to understand the requirements at a level that makes it possible to design and implement a software system that meets the customer’s needs.\n\nAs part of requirements modeling, as in business use case modeling, you typically create a domain model that captures the major concepts of the problem domain and associations between them. For example, in the domain of driving assists for an automotive solution, there could be conceptual/analysis classes such as AdaptiveCruiseControl, Car, BlindSpotDetection, and Blinker and class attributes assigned to classes as follows:\n\n• AdaptiveCruiseControl has attributes state (on/off) and desiredSpeed (the requested speed).\n\n• Car has attribute speed (the current speed)."
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": false,
+  "query_id": "test-n05",
+  "question": "What does logical design ignore when a solution is designed?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p457:B01",
+    "page": 457,
+    "chapter": 9,
+    "score": 8.9107,
+    "hit": true,
+    "text": "Logical design ignores any physical aspects. For example, a cruise control system needs to keep track of the maximum speed selected and whether the cruise control system is on or off. This information is gathered as part of the logical design and needs to be captured via a diagram that also identifies the corresponding relationships. This type of information is often captured as a set of entities (or actors) that enable the grouping of descriptive information and attributes.\n\nA graphical representation of the method for effectively implementing what was determined in the logical design of a software solution is a physical design. It includes defining where information comes from and where it goes within the planned system. It includes defining how information is obtained, processed, and/or how it is presented."
+   },
+   {
+    "id": "openstax-intro-cs:p457:B00",
+    "page": 457,
+    "chapter": 9,
+    "score": 8.6032,
+    "hit": false,
+    "text": "A detailed-level design model may then be derived from the high-level architecture model, and it is typically represented using a combination of low-level modeling languages (e.g., BPMN, UML, SysML). At this level of design, a conceptual solution that fulfills the requirements is created and seeks to answer the question “How will the system fulfill the requirements?” The conceptual solution leverages the inputs collected in the inception phase to design a software product. This information is generally organized into two types of design: logical and physical."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B03",
+    "page": 387,
+    "chapter": 8,
+    "score": 8.0988,
+    "hit": false,
+    "text": "The process of logical design involves designing a database based on a specific data model but independent of physical details. The logical design for a relational DBMS includes specifications for tables, relationships, and constraints. The logical design is performed in four steps: map conceptual model to logical model components, validate the logical model using normalization, validate logical model constraints, and validate the logical model against user requirements.\n\nTo determine the quality of relation schema design, we follow the informal design guidelines for relational schemas and use simple measures of quality such as making sure attribute semantics are clear, reducing redundant information, and reducing null values. Null values cause redundant work, which wastes storage space and increases the difficulty of performing operations.\n\nTECHNOLOGY IN EVERYDAY LIFE\n\nRDBMS"
+   }
+  ]
+ },
+ {
+  "method": "bm25",
+  "filter_applied": true,
+  "query_id": "test-n06",
+  "question": "Which example is given for a Geographic Information Systems (GIS) database application?",
+  "filter": {
+   "chapter": 8
+  },
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B02",
+    "page": 377,
+    "chapter": 8,
+    "score": 19.4686,
+    "hit": true,
+    "text": "A database application is a program or piece of software designed to collect, store, access, retrieve, and manage information efficiently and securely. The following are some examples of database applications: multimedia applications (e.g., YouTube, Spotify), biometric applications (e.g., fingerprints, retina scans), wearable applications (e.g., Fitbit, Apple Watch), Geographic Information Systems (GIS) applications (e.g., Google Maps), sensor applications (e.g., nuclear power reactor), big data applications (e.g., Walmart), and IoT applications (e.g., Telematics).\n\nCONCEPTS IN PRACTICE\n\nSpecialized Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B03",
+    "page": 377,
+    "chapter": 8,
+    "score": 12.6444,
+    "hit": false,
+    "text": "Database systems are fascinating because they must be given the ability to model various types of data at various levels of abstractions and various levels of details; therefore, it is possible to create specialized systems that can help people in various research domains and industries represent and use their data in the best possible way. For example, SciDB is an open-source data management system intended primarily for use in application areas that involve very large-scale array data. SciDB can be used to support a large variety of scientific applications used in astronomy, remote sensing and climate modeling, bioscience information management, risk management systems for financial applications, and web log data analysis.\n\nElements of Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p375:B00",
+    "page": 375,
+    "chapter": 8,
+    "score": 9.7331,
+    "hit": false,
+    "text": "The information architect collaborates with the database designer who may assist in choosing the type of conceptual data model (e.g., EER or UML) and the database modeling tool. Figure 8.5 shows an example of different database systems that various personnel working in data management may encounter. Figure 8.5 Existing database systems can be categorized as nonrelational and relational. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)\n\nDatabase Designer\n\nA database designer is responsible for creating, implementing, and maintaining the database management system. Other responsibilities include translating the conceptual data model into a logical and internal data model, assisting the application developers in defining the views of the external data model, and defining company-wide uniform naming conventions when creating the various data models.\n\nData Owner"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n01",
+  "question": "What does the term miniworld (universe of discourse) refer to in a database context?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B00",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.0328,
+    "hit": true,
+    "text": "concepts to describe the structure of a database, the operations for manipulating these structures, and certain constraints that the database should obey. A database is a collection of related data items within a specific business process or problem setting; an example of a large commercial database is the one maintained by amazon.com. A DBMS is the software package used to define, create, use, and maintain a database while considering appropriate security measures. A miniworld, or universe of discourse (UoD), represents some aspect of the real-world data that are stored in a database (e.g., student grades at a university)."
+   },
+   {
+    "id": "openstax-intro-cs:p377:B01",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.0323,
+    "hit": false,
+    "text": "There are many characteristics of the database approach such as being superior to the file approach in terms of efficiency, consistency, and maintenance; providing loose coupling between applications and data as well as facilities for data querying and retrieval; removing redundancy and cleansing the data; supporting multiuser transactions that allow multiple users to access the same data and multiple views of the data; and allowing sharing data between users and applications.\n\nTHINK IT THROUGH\n\nUniversity Miniworld\n\nLet us think about the university as a miniworld. In this miniworld, we need to define a data dictionary to describe the following: students, courses, sections, departments, and instructors.\n\nSuggest a miniworld that would be part of a university environment. Define the main entries to be included such as STUDENTs = ID + FirstName + LastName.\n\nApplications of Database Technology"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B04",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.028,
+    "hit": false,
+    "text": "The major elements of a database management system include hardware, software, data, procedures, language, and users. Hardware includes the physical devices such as computers and hard disks. Software refers to the set of programs that are used to manage and control a database. Data includes raw data and information organized and processed within the database. Procedures are instructions used to manage the database. A database user is a person who has the privileges to access, analyze, update, and maintain the data (e.g., information architect, database designer, database administrator, database application developer,"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n02",
+  "question": "Which DBMS component translates statements written in a high-level language into low-level instructions for the query evaluation engine?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p379:B01",
+    "page": 379,
+    "chapter": 8,
+    "score": 0.0325,
+    "hit": true,
+    "text": "Figure 8.6 DBMS includes multiple components: DBMS interface, query processor, storage manager, connection manager, security manager, DDL compiler, and database utilities. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) A connection manager manages reports, books, objects, and batches. For each database, the connection manager provides the connection name, data source type, and value. A security manager is a collection of processes used to secure the database from threats. The data description language (DDL) compiler translates statements in a high-level language into low-level instructions that the query evaluation engine understands. A query processor acts as an intermediary between users and the DBMS data engine to communicate query requests including DML compiler, query parser, query rewriter, query optimizer, and query executor."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B02",
+    "page": 387,
+    "chapter": 8,
+    "score": 0.0315,
+    "hit": false,
+    "text": "The existential quantifier (∃ or EXISTS) and universal quantifier (∀ or FOR ALL) are also supported in domain relational calculus.\n\nQuery-by-Example (QBE) Language\n\nThe relational database language based on domain relational calculus is called query-by-example (QBE). QBE queries are expressed via a graphical query language, using visual tables where the user enters commands, example elements, and conditions. A parser converts the QBE graphical queries into statements expressed in a database manipulation language, such as SQL.\n\nLogical Design"
+   },
+   {
+    "id": "openstax-intro-cs:p459:B01",
+    "page": 459,
+    "chapter": 9,
+    "score": 0.0306,
+    "hit": false,
+    "text": "As mentioned earlier, the focus of the HLD software engineering action is on providing a general description of the overall system design. It can include information on the overall aspects of a system, including its architecture, data, systems, services, and platforms as well as the relationships among various modules and components. Its focus is achieved by converting the requirements into a high-level solution that can then be further refined as part of the Low-Level Design (LLD) software engineering action.\n\nLINK TO LEARNING\n\nThe IEEE Computer Society has proposed IEEE-Std-42010:2022, Software, Systems and Enterprise—Architecture Description (https://openstax.org/r/76IEEEEStd) as a standard that describes the use of architecture viewpoints, architecture frameworks, and architecture description languages (ADLs) as a means of codifying the conventions and common practices for architectural description.\n\nSoftware Design"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n03",
+  "question": "Is it possible to be employed as a software engineer while knowing only a single programming language?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p450:B00",
+    "page": 450,
+    "chapter": 9,
+    "score": 0.0328,
+    "hit": true,
+    "text": "functionality (like C++ or Java), while others are better suited for adding interactivity (like JavaScript). Understanding different languages allows software engineers to choose the right tool for the job. How Many Languages Should a Software Engineer Know?\n\nThere is no right or wrong answer to this question. It is possible, though not common, to be employed as a software engineer knowing only a single programming language. Typically, however, successful software engineers understand the different categories of programming languages and the common structure and design features of each."
+   },
+   {
+    "id": "openstax-intro-cs:p450:B01",
+    "page": 450,
+    "chapter": 9,
+    "score": 0.0323,
+    "hit": false,
+    "text": "It is often recommended that a software engineer learn a primary programming language that can be used for system-level programming such as C, C#, or C++. Additionally, in today’s world, a software engineer should understand object-oriented programming, which is done in languages like Python, C++, and Java. Because web development often is a part of solutions, knowing a scripting language, such as JavaScript, Python, PHP, Perl, or Ruby, is also beneficial. Finally, understanding markup languages such as HTML and XML is also important.\n\nOf course, the best languages to know are dependent on the projects that are worked on. If a software engineer is creating embedded solutions, then the programming language is likely going to be much different than if they are doing high-end gaming solutions or web-based solutions. Chapter 7 High-Level Programming Languages delves deeper into programming languages.\n\n9.2 Software Engineering Process\n\nLearning Objectives"
+   },
+   {
+    "id": "openstax-intro-cs:p449:B01",
+    "page": 449,
+    "chapter": 9,
+    "score": 0.0315,
+    "hit": false,
+    "text": "Imagine a toolbox with specialized tools—a hammer for carpentry, or a paintbrush for art. Software engineers also use various tools, and some of their tools are programming languages! Just as the right tool makes a job more accessible, the correct programming language helps engineers build different software applications.\n\nCan You Guess the Language?\n\nIdentify the programming languages commonly used to build the following types of applications:\n\n• Mobile app (like Instagram)\n\n• Website (like Wikipedia)\n\n• Video game Possible answers include JavaScript, Python, C++, Java.\n\nWhy So Many Languages?\n\nEach programming language has its strengths. Some languages are great for building an application’s core"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n04",
+  "question": "In a UML class diagram of a domain model, what do the numbers at the associations express?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p455:B01",
+    "page": 455,
+    "chapter": 9,
+    "score": 0.0325,
+    "hit": false,
+    "text": "• BlindSpotDetection has attribute state (on/off).\n\n• Blinker has attribute state (on/off).\n\nFigure 9.5 illustrates a class diagram of a partial domain model. This diagram is specified using Unified Modeling Language (UML). UML is often used for modeling in projects as its visual representations provide clear, compact means of communicating among the developers. In UML class diagrams such as this, the numbers at associations are multiplicities, and the arrows specify the direction in which you are expected to read the association. For example, BlindSpotDetection monitors Car.\n\nFigure 9.5 A UML class diagram, in this case of a partial domain model, is used as a communication tool among developers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+   },
+   {
+    "id": "openstax-intro-cs:p455:B02",
+    "page": 455,
+    "chapter": 9,
+    "score": 0.0323,
+    "hit": true,
+    "text": "Associations are links that deserve to be stored in the system. For example, an association between AdaptiveCruiseControl and Car is required because when Adaptive Cruise Control is active, conceptual class AdaptiveCruiseControl needs access to the car. The numbers at associations are multiplicities, and they say that there is exactly one Car associated with each AdaptiveCruiseControl and that there is exactly one AdaptiveCruiseControl associated with each Car. Associations can have names, which facilitate reading and understanding the analysis model.\n\nThe UML notation may be applied to provide different perspectives as follows:\n\n• Conceptual perspective: The diagrams describe real-world concepts or things.\n\n• Specification (software) perspective: The diagrams describe software components.\n\n• Implementation (software) perspective: The diagrams describe software components in a particular technology, such as Java or .NET."
+   },
+   {
+    "id": "openstax-intro-cs:p456:B01",
+    "page": 456,
+    "chapter": 9,
+    "score": 0.031,
+    "hit": false,
+    "text": "Figure 9.6 In this UML use case diagram illustrating an actor called “Driver,” the three use cases might be further grouped together and categorized as Car Control system. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) As part of requirements modeling, UML diagrams are drawn whenever they bring value to help provide a conceptual perspective of what the solution is meant to accomplish. They are generally not required to be complete or perfect. The use of UML in this manner is typically referred to as “UML as sketch,” and it involves informal and incomplete diagrams. Instead of drawing UML diagrams, it is possible to specify them via scripts to automate the creation of diagrams, which can save valuable time."
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n05",
+  "question": "What does logical design ignore when a solution is designed?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p457:B01",
+    "page": 457,
+    "chapter": 9,
+    "score": 0.0328,
+    "hit": true,
+    "text": "Logical design ignores any physical aspects. For example, a cruise control system needs to keep track of the maximum speed selected and whether the cruise control system is on or off. This information is gathered as part of the logical design and needs to be captured via a diagram that also identifies the corresponding relationships. This type of information is often captured as a set of entities (or actors) that enable the grouping of descriptive information and attributes.\n\nA graphical representation of the method for effectively implementing what was determined in the logical design of a software solution is a physical design. It includes defining where information comes from and where it goes within the planned system. It includes defining how information is obtained, processed, and/or how it is presented."
+   },
+   {
+    "id": "openstax-intro-cs:p457:B00",
+    "page": 457,
+    "chapter": 9,
+    "score": 0.0323,
+    "hit": false,
+    "text": "A detailed-level design model may then be derived from the high-level architecture model, and it is typically represented using a combination of low-level modeling languages (e.g., BPMN, UML, SysML). At this level of design, a conceptual solution that fulfills the requirements is created and seeks to answer the question “How will the system fulfill the requirements?” The conceptual solution leverages the inputs collected in the inception phase to design a software product. This information is generally organized into two types of design: logical and physical."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B03",
+    "page": 387,
+    "chapter": 8,
+    "score": 0.0317,
+    "hit": false,
+    "text": "The process of logical design involves designing a database based on a specific data model but independent of physical details. The logical design for a relational DBMS includes specifications for tables, relationships, and constraints. The logical design is performed in four steps: map conceptual model to logical model components, validate the logical model using normalization, validate logical model constraints, and validate the logical model against user requirements.\n\nTo determine the quality of relation schema design, we follow the informal design guidelines for relational schemas and use simple measures of quality such as making sure attribute semantics are clear, reducing redundant information, and reducing null values. Null values cause redundant work, which wastes storage space and increases the difficulty of performing operations.\n\nTECHNOLOGY IN EVERYDAY LIFE\n\nRDBMS"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n06",
+  "question": "Which example is given for a Geographic Information Systems (GIS) database application?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B02",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.0328,
+    "hit": true,
+    "text": "A database application is a program or piece of software designed to collect, store, access, retrieve, and manage information efficiently and securely. The following are some examples of database applications: multimedia applications (e.g., YouTube, Spotify), biometric applications (e.g., fingerprints, retina scans), wearable applications (e.g., Fitbit, Apple Watch), Geographic Information Systems (GIS) applications (e.g., Google Maps), sensor applications (e.g., nuclear power reactor), big data applications (e.g., Walmart), and IoT applications (e.g., Telematics).\n\nCONCEPTS IN PRACTICE\n\nSpecialized Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B03",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.0323,
+    "hit": false,
+    "text": "Database systems are fascinating because they must be given the ability to model various types of data at various levels of abstractions and various levels of details; therefore, it is possible to create specialized systems that can help people in various research domains and industries represent and use their data in the best possible way. For example, SciDB is an open-source data management system intended primarily for use in application areas that involve very large-scale array data. SciDB can be used to support a large variety of scientific applications used in astronomy, remote sensing and climate modeling, bioscience information management, risk management systems for financial applications, and web log data analysis.\n\nElements of Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p372:B01",
+    "page": 372,
+    "chapter": 8,
+    "score": 0.0303,
+    "hit": false,
+    "text": "A data dictionary is a set of information describing the content, format, and structure of a database (e.g., in a relational DBMS, the catalog includes the names of all available tables and their associated fields). The metadata catalog constitutes the heart of the database system and can be part of a DBMS or a stand-alone component. The metadata cataloging process is collecting data about processes, people, products, and any enterprise-related data, which provides an important source of information for end users, application developers, as well as the DBMS itself. The catalog typically provides an extensible metadata model, import/ export facilities, support for maintenance and reuse of metadata, monitoring of integrity rules, facilities for user access, and statistics about the data and its usage for the database administrator and query optimizer. Metadata cataloging improves the user experience, adds competitive advantages, and improves the efficiency of the business."
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n01",
+  "question": "What does the term miniworld (universe of discourse) refer to in a database context?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B00",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.0328,
+    "hit": true,
+    "text": "concepts to describe the structure of a database, the operations for manipulating these structures, and certain constraints that the database should obey. A database is a collection of related data items within a specific business process or problem setting; an example of a large commercial database is the one maintained by amazon.com. A DBMS is the software package used to define, create, use, and maintain a database while considering appropriate security measures. A miniworld, or universe of discourse (UoD), represents some aspect of the real-world data that are stored in a database (e.g., student grades at a university)."
+   },
+   {
+    "id": "openstax-intro-cs:p377:B01",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.0323,
+    "hit": false,
+    "text": "There are many characteristics of the database approach such as being superior to the file approach in terms of efficiency, consistency, and maintenance; providing loose coupling between applications and data as well as facilities for data querying and retrieval; removing redundancy and cleansing the data; supporting multiuser transactions that allow multiple users to access the same data and multiple views of the data; and allowing sharing data between users and applications.\n\nTHINK IT THROUGH\n\nUniversity Miniworld\n\nLet us think about the university as a miniworld. In this miniworld, we need to define a data dictionary to describe the following: students, courses, sections, departments, and instructors.\n\nSuggest a miniworld that would be part of a university environment. Define the main entries to be included such as STUDENTs = ID + FirstName + LastName.\n\nApplications of Database Technology"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B04",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.028,
+    "hit": false,
+    "text": "The major elements of a database management system include hardware, software, data, procedures, language, and users. Hardware includes the physical devices such as computers and hard disks. Software refers to the set of programs that are used to manage and control a database. Data includes raw data and information organized and processed within the database. Procedures are instructions used to manage the database. A database user is a person who has the privileges to access, analyze, update, and maintain the data (e.g., information architect, database designer, database administrator, database application developer,"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n02",
+  "question": "Which DBMS component translates statements written in a high-level language into low-level instructions for the query evaluation engine?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p379:B01",
+    "page": 379,
+    "chapter": 8,
+    "score": 0.0325,
+    "hit": true,
+    "text": "Figure 8.6 DBMS includes multiple components: DBMS interface, query processor, storage manager, connection manager, security manager, DDL compiler, and database utilities. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) A connection manager manages reports, books, objects, and batches. For each database, the connection manager provides the connection name, data source type, and value. A security manager is a collection of processes used to secure the database from threats. The data description language (DDL) compiler translates statements in a high-level language into low-level instructions that the query evaluation engine understands. A query processor acts as an intermediary between users and the DBMS data engine to communicate query requests including DML compiler, query parser, query rewriter, query optimizer, and query executor."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B02",
+    "page": 387,
+    "chapter": 8,
+    "score": 0.0315,
+    "hit": false,
+    "text": "The existential quantifier (∃ or EXISTS) and universal quantifier (∀ or FOR ALL) are also supported in domain relational calculus.\n\nQuery-by-Example (QBE) Language\n\nThe relational database language based on domain relational calculus is called query-by-example (QBE). QBE queries are expressed via a graphical query language, using visual tables where the user enters commands, example elements, and conditions. A parser converts the QBE graphical queries into statements expressed in a database manipulation language, such as SQL.\n\nLogical Design"
+   },
+   {
+    "id": "openstax-intro-cs:p459:B01",
+    "page": 459,
+    "chapter": 9,
+    "score": 0.0306,
+    "hit": false,
+    "text": "As mentioned earlier, the focus of the HLD software engineering action is on providing a general description of the overall system design. It can include information on the overall aspects of a system, including its architecture, data, systems, services, and platforms as well as the relationships among various modules and components. Its focus is achieved by converting the requirements into a high-level solution that can then be further refined as part of the Low-Level Design (LLD) software engineering action.\n\nLINK TO LEARNING\n\nThe IEEE Computer Society has proposed IEEE-Std-42010:2022, Software, Systems and Enterprise—Architecture Description (https://openstax.org/r/76IEEEEStd) as a standard that describes the use of architecture viewpoints, architecture frameworks, and architecture description languages (ADLs) as a means of codifying the conventions and common practices for architectural description.\n\nSoftware Design"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n03",
+  "question": "Is it possible to be employed as a software engineer while knowing only a single programming language?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p450:B00",
+    "page": 450,
+    "chapter": 9,
+    "score": 0.0328,
+    "hit": true,
+    "text": "functionality (like C++ or Java), while others are better suited for adding interactivity (like JavaScript). Understanding different languages allows software engineers to choose the right tool for the job. How Many Languages Should a Software Engineer Know?\n\nThere is no right or wrong answer to this question. It is possible, though not common, to be employed as a software engineer knowing only a single programming language. Typically, however, successful software engineers understand the different categories of programming languages and the common structure and design features of each."
+   },
+   {
+    "id": "openstax-intro-cs:p450:B01",
+    "page": 450,
+    "chapter": 9,
+    "score": 0.0323,
+    "hit": false,
+    "text": "It is often recommended that a software engineer learn a primary programming language that can be used for system-level programming such as C, C#, or C++. Additionally, in today’s world, a software engineer should understand object-oriented programming, which is done in languages like Python, C++, and Java. Because web development often is a part of solutions, knowing a scripting language, such as JavaScript, Python, PHP, Perl, or Ruby, is also beneficial. Finally, understanding markup languages such as HTML and XML is also important.\n\nOf course, the best languages to know are dependent on the projects that are worked on. If a software engineer is creating embedded solutions, then the programming language is likely going to be much different than if they are doing high-end gaming solutions or web-based solutions. Chapter 7 High-Level Programming Languages delves deeper into programming languages.\n\n9.2 Software Engineering Process\n\nLearning Objectives"
+   },
+   {
+    "id": "openstax-intro-cs:p449:B01",
+    "page": 449,
+    "chapter": 9,
+    "score": 0.0315,
+    "hit": false,
+    "text": "Imagine a toolbox with specialized tools—a hammer for carpentry, or a paintbrush for art. Software engineers also use various tools, and some of their tools are programming languages! Just as the right tool makes a job more accessible, the correct programming language helps engineers build different software applications.\n\nCan You Guess the Language?\n\nIdentify the programming languages commonly used to build the following types of applications:\n\n• Mobile app (like Instagram)\n\n• Website (like Wikipedia)\n\n• Video game Possible answers include JavaScript, Python, C++, Java.\n\nWhy So Many Languages?\n\nEach programming language has its strengths. Some languages are great for building an application’s core"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": true,
+  "query_id": "test-n04",
+  "question": "In a UML class diagram of a domain model, what do the numbers at the associations express?",
+  "filter": {
+   "chapter": 9
+  },
+  "top": [
+   {
+    "id": "openstax-intro-cs:p455:B01",
+    "page": 455,
+    "chapter": 9,
+    "score": 0.0325,
+    "hit": false,
+    "text": "• BlindSpotDetection has attribute state (on/off).\n\n• Blinker has attribute state (on/off).\n\nFigure 9.5 illustrates a class diagram of a partial domain model. This diagram is specified using Unified Modeling Language (UML). UML is often used for modeling in projects as its visual representations provide clear, compact means of communicating among the developers. In UML class diagrams such as this, the numbers at associations are multiplicities, and the arrows specify the direction in which you are expected to read the association. For example, BlindSpotDetection monitors Car.\n\nFigure 9.5 A UML class diagram, in this case of a partial domain model, is used as a communication tool among developers. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license)"
+   },
+   {
+    "id": "openstax-intro-cs:p455:B02",
+    "page": 455,
+    "chapter": 9,
+    "score": 0.0325,
+    "hit": true,
+    "text": "Associations are links that deserve to be stored in the system. For example, an association between AdaptiveCruiseControl and Car is required because when Adaptive Cruise Control is active, conceptual class AdaptiveCruiseControl needs access to the car. The numbers at associations are multiplicities, and they say that there is exactly one Car associated with each AdaptiveCruiseControl and that there is exactly one AdaptiveCruiseControl associated with each Car. Associations can have names, which facilitate reading and understanding the analysis model.\n\nThe UML notation may be applied to provide different perspectives as follows:\n\n• Conceptual perspective: The diagrams describe real-world concepts or things.\n\n• Specification (software) perspective: The diagrams describe software components.\n\n• Implementation (software) perspective: The diagrams describe software components in a particular technology, such as Java or .NET."
+   },
+   {
+    "id": "openstax-intro-cs:p456:B01",
+    "page": 456,
+    "chapter": 9,
+    "score": 0.0313,
+    "hit": false,
+    "text": "Figure 9.6 In this UML use case diagram illustrating an actor called “Driver,” the three use cases might be further grouped together and categorized as Car Control system. (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) As part of requirements modeling, UML diagrams are drawn whenever they bring value to help provide a conceptual perspective of what the solution is meant to accomplish. They are generally not required to be complete or perfect. The use of UML in this manner is typically referred to as “UML as sketch,” and it involves informal and incomplete diagrams. Instead of drawing UML diagrams, it is possible to specify them via scripts to automate the creation of diagrams, which can save valuable time."
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": false,
+  "query_id": "test-n05",
+  "question": "What does logical design ignore when a solution is designed?",
+  "filter": null,
+  "top": [
+   {
+    "id": "openstax-intro-cs:p457:B01",
+    "page": 457,
+    "chapter": 9,
+    "score": 0.0328,
+    "hit": true,
+    "text": "Logical design ignores any physical aspects. For example, a cruise control system needs to keep track of the maximum speed selected and whether the cruise control system is on or off. This information is gathered as part of the logical design and needs to be captured via a diagram that also identifies the corresponding relationships. This type of information is often captured as a set of entities (or actors) that enable the grouping of descriptive information and attributes.\n\nA graphical representation of the method for effectively implementing what was determined in the logical design of a software solution is a physical design. It includes defining where information comes from and where it goes within the planned system. It includes defining how information is obtained, processed, and/or how it is presented."
+   },
+   {
+    "id": "openstax-intro-cs:p457:B00",
+    "page": 457,
+    "chapter": 9,
+    "score": 0.0323,
+    "hit": false,
+    "text": "A detailed-level design model may then be derived from the high-level architecture model, and it is typically represented using a combination of low-level modeling languages (e.g., BPMN, UML, SysML). At this level of design, a conceptual solution that fulfills the requirements is created and seeks to answer the question “How will the system fulfill the requirements?” The conceptual solution leverages the inputs collected in the inception phase to design a software product. This information is generally organized into two types of design: logical and physical."
+   },
+   {
+    "id": "openstax-intro-cs:p387:B03",
+    "page": 387,
+    "chapter": 8,
+    "score": 0.0317,
+    "hit": false,
+    "text": "The process of logical design involves designing a database based on a specific data model but independent of physical details. The logical design for a relational DBMS includes specifications for tables, relationships, and constraints. The logical design is performed in four steps: map conceptual model to logical model components, validate the logical model using normalization, validate logical model constraints, and validate the logical model against user requirements.\n\nTo determine the quality of relation schema design, we follow the informal design guidelines for relational schemas and use simple measures of quality such as making sure attribute semantics are clear, reducing redundant information, and reducing null values. Null values cause redundant work, which wastes storage space and increases the difficulty of performing operations.\n\nTECHNOLOGY IN EVERYDAY LIFE\n\nRDBMS"
+   }
+  ]
+ },
+ {
+  "method": "hybrid_rrf",
+  "filter_applied": true,
+  "query_id": "test-n06",
+  "question": "Which example is given for a Geographic Information Systems (GIS) database application?",
+  "filter": {
+   "chapter": 8
+  },
+  "top": [
+   {
+    "id": "openstax-intro-cs:p377:B02",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.0328,
+    "hit": true,
+    "text": "A database application is a program or piece of software designed to collect, store, access, retrieve, and manage information efficiently and securely. The following are some examples of database applications: multimedia applications (e.g., YouTube, Spotify), biometric applications (e.g., fingerprints, retina scans), wearable applications (e.g., Fitbit, Apple Watch), Geographic Information Systems (GIS) applications (e.g., Google Maps), sensor applications (e.g., nuclear power reactor), big data applications (e.g., Walmart), and IoT applications (e.g., Telematics).\n\nCONCEPTS IN PRACTICE\n\nSpecialized Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p377:B03",
+    "page": 377,
+    "chapter": 8,
+    "score": 0.0323,
+    "hit": false,
+    "text": "Database systems are fascinating because they must be given the ability to model various types of data at various levels of abstractions and various levels of details; therefore, it is possible to create specialized systems that can help people in various research domains and industries represent and use their data in the best possible way. For example, SciDB is an open-source data management system intended primarily for use in application areas that involve very large-scale array data. SciDB can be used to support a large variety of scientific applications used in astronomy, remote sensing and climate modeling, bioscience information management, risk management systems for financial applications, and web log data analysis.\n\nElements of Database Systems"
+   },
+   {
+    "id": "openstax-intro-cs:p372:B01",
+    "page": 372,
+    "chapter": 8,
+    "score": 0.0306,
+    "hit": false,
+    "text": "A data dictionary is a set of information describing the content, format, and structure of a database (e.g., in a relational DBMS, the catalog includes the names of all available tables and their associated fields). The metadata catalog constitutes the heart of the database system and can be part of a DBMS or a stand-alone component. The metadata cataloging process is collecting data about processes, people, products, and any enterprise-related data, which provides an important source of information for end users, application developers, as well as the DBMS itself. The catalog typically provides an extensible metadata model, import/ export facilities, support for maintenance and reuse of metadata, monitoring of integrity rules, facilities for user access, and statistics about the data and its usage for the database administrator and query optimizer. Metadata cataloging improves the user experience, adds competitive advantages, and improves the efficiency of the business."
+   }
+  ]
+ }
+]

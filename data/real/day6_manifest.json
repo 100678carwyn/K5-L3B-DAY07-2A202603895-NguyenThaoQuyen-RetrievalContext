@@ -1,0 +1,273 @@
+{
+  "source_id": "openstax-intro-cs",
+  "title": "Introduction to Computer Science (OpenStax)",
+  "source_path_or_url": "https://assets.openstax.org/oscms-prodcms/media/documents/Introduction_To_Computer_Science_-_WEB.pdf",
+  "local_path": "starter/data/openstax_intro_cs.pdf (not committed; download from the URL)",
+  "license_or_permission": "CC BY-NC-SA 4.0 (Rice University, OpenStax); non-commercial educational use with attribution",
+  "accessed_at": "2026-11-14T02:38Z",
+  "snapshot_sha256": "fd56aaf80c851e9f3b417745785ea5c832fc2911acfd2094a86f4c517fdf435a",
+  "physical_pdf_pages_total": 939,
+  "page_counting_rule": "Only physical PDF pages in the chosen ranges whose normalized text has >=300 chars are counted; footers removed; cover/TOC/index not used.",
+  "chapters": [
+    {
+      "chapter": 8,
+      "title": "Data Management",
+      "pdf_page_range": [
+        370,
+        389
+      ]
+    },
+    {
+      "chapter": 9,
+      "title": "Software Engineering",
+      "pdf_page_range": [
+        440,
+        459
+      ]
+    }
+  ],
+  "content_pages_counted": 40,
+  "total_chars": 132956,
+  "pages": [
+    {
+      "page": 370,
+      "chapter": 8,
+      "printed_page": 360,
+      "chars": 3743
+    },
+    {
+      "page": 371,
+      "chapter": 8,
+      "printed_page": 361,
+      "chars": 2596
+    },
+    {
+      "page": 372,
+      "chapter": 8,
+      "printed_page": 362,
+      "chars": 2757
+    },
+    {
+      "page": 373,
+      "chapter": 8,
+      "printed_page": 363,
+      "chars": 3310
+    },
+    {
+      "page": 374,
+      "chapter": 8,
+      "printed_page": 364,
+      "chars": 3376
+    },
+    {
+      "page": 375,
+      "chapter": 8,
+      "printed_page": 365,
+      "chars": 2585
+    },
+    {
+      "page": 376,
+      "chapter": 8,
+      "printed_page": 366,
+      "chars": 3224
+    },
+    {
+      "page": 377,
+      "chapter": 8,
+      "printed_page": 367,
+      "chars": 3553
+    },
+    {
+      "page": 378,
+      "chapter": 8,
+      "printed_page": 368,
+      "chars": 2842
+    },
+    {
+      "page": 379,
+      "chapter": 8,
+      "printed_page": 369,
+      "chars": 2377
+    },
+    {
+      "page": 380,
+      "chapter": 8,
+      "printed_page": 370,
+      "chars": 2418
+    },
+    {
+      "page": 381,
+      "chapter": 8,
+      "printed_page": 371,
+      "chars": 2026
+    },
+    {
+      "page": 382,
+      "chapter": 8,
+      "printed_page": 372,
+      "chars": 4297
+    },
+    {
+      "page": 383,
+      "chapter": 8,
+      "printed_page": 373,
+      "chars": 3284
+    },
+    {
+      "page": 384,
+      "chapter": 8,
+      "printed_page": 374,
+      "chars": 2418
+    },
+    {
+      "page": 385,
+      "chapter": 8,
+      "printed_page": 375,
+      "chars": 2552
+    },
+    {
+      "page": 386,
+      "chapter": 8,
+      "printed_page": 376,
+      "chars": 3755
+    },
+    {
+      "page": 387,
+      "chapter": 8,
+      "printed_page": 377,
+      "chars": 3367
+    },
+    {
+      "page": 388,
+      "chapter": 8,
+      "printed_page": 378,
+      "chars": 3007
+    },
+    {
+      "page": 389,
+      "chapter": 8,
+      "printed_page": 379,
+      "chars": 495
+    },
+    {
+      "page": 440,
+      "chapter": 9,
+      "printed_page": 430,
+      "chars": 4357
+    },
+    {
+      "page": 441,
+      "chapter": 9,
+      "printed_page": 431,
+      "chars": 3935
+    },
+    {
+      "page": 442,
+      "chapter": 9,
+      "printed_page": 432,
+      "chars": 3620
+    },
+    {
+      "page": 443,
+      "chapter": 9,
+      "printed_page": 433,
+      "chars": 3818
+    },
+    {
+      "page": 444,
+      "chapter": 9,
+      "printed_page": 434,
+      "chars": 4131
+    },
+    {
+      "page": 445,
+      "chapter": 9,
+      "printed_page": 435,
+      "chars": 3521
+    },
+    {
+      "page": 446,
+      "chapter": 9,
+      "printed_page": 436,
+      "chars": 2634
+    },
+    {
+      "page": 447,
+      "chapter": 9,
+      "printed_page": 437,
+      "chars": 3779
+    },
+    {
+      "page": 448,
+      "chapter": 9,
+      "printed_page": 438,
+      "chars": 4790
+    },
+    {
+      "page": 449,
+      "chapter": 9,
+      "printed_page": 439,
+      "chars": 1513
+    },
+    {
+      "page": 450,
+      "chapter": 9,
+      "printed_page": 440,
+      "chars": 3586
+    },
+    {
+      "page": 451,
+      "chapter": 9,
+      "printed_page": 441,
+      "chars": 4271
+    },
+    {
+      "page": 452,
+      "chapter": 9,
+      "printed_page": 442,
+      "chars": 4261
+    },
+    {
+      "page": 453,
+      "chapter": 9,
+      "printed_page": 443,
+      "chars": 3764
+    },
+    {
+      "page": 454,
+      "chapter": 9,
+      "printed_page": 444,
+      "chars": 4279
+    },
+    {
+      "page": 455,
+      "chapter": 9,
+      "printed_page": 445,
+      "chars": 2934
+    },
+    {
+      "page": 456,
+      "chapter": 9,
+      "printed_page": 446,
+      "chars": 3393
+    },
+    {
+      "page": 457,
+      "chapter": 9,
+      "printed_page": 447,
+      "chars": 4222
+    },
+    {
+      "page": 458,
+      "chapter": 9,
+      "printed_page": 448,
+      "chars": 4180
+    },
+    {
+      "page": 459,
+      "chapter": 9,
+      "printed_page": 449,
+      "chars": 3986
+    }
+  ]
+}
