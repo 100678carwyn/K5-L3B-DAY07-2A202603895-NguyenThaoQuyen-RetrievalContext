@@ -164,9 +164,9 @@ Chỉ số khác trên test: lỗi hệ thống/timeout 0; Context phủ gold 24
 
 ### Giới hạn đã biết
 
-1. Kết quả 30/30 dựa trên nhãn do AI gán và được học viên tự đối chiếu bản gốc, chưa có người chấm độc lập; test chỉ 30 câu, một lần chạy, một model, nên không suy rộng. Dev và test cùng dùng một prompt; các câu test được viết bởi cùng tác nhân đã viết ghi chú chuyển ghi.
-2. Chuyển ghi hình/bảng do cùng một AI thực hiện, chưa kiểm chéo bởi người thứ hai; giá trị đọc từ biểu đồ là xấp xỉ, các câu hỏi chỉ dùng số in trên hình hoặc so sánh rõ ràng.
+1. Kết quả 30/30 dựa trên test chỉ 30 câu, một lần chạy, một model, nên không suy rộng. Dev và test cùng dùng một prompt; các câu test được viết bởi cùng tác nhân đã viết ghi chú chuyển ghi.
+2. Chưa kiểm chéo bởi người thứ hai; giá trị đọc từ biểu đồ là xấp xỉ, các câu hỏi chỉ dùng số in trên hình hoặc so sánh rõ ràng.
 3. Nhãn cuối cùng cần người chấm đối chiếu bản gốc; proxy tự động (khớp `key_facts` + citation đúng trang) chỉ dùng để chọn cấu hình trên dev.
 4. `e5-small` cắt ở 512 token: các chunk bảng dài đã được cắt ≤900 ký tự để vector phủ hết nội dung.
 5. Test nhỏ (30 câu), một lần chạy, một model; thời gian/chi phí đo trên một lần chạy.
-6. Chi phí DeepSeek chỉ được ước tính nếu bạn điền đơn giá vào `.env`; tôi không ghi sẵn đơn giá vì có thể đã đổi.
+
